@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>قائمة متداخلة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body class="p-4">
+
+    <div class="container">
+        <h4>قائمة متداخلة - Bootstrap 4</h4>
+        <ul class="nested-menu">
+            <li>
+                <button onclick="toggle(this)">الهيئة</button>
+                <ul class="nested-menu d-none">
+                    <li><a href="#">عن الهيئة</a></li>
+                    <li>
+                        <button onclick="toggle(this)">الحكومة الرقمية</button>
+                        <ul class="nested-menu d-none">
+                            <li><a href="#">الرؤية</a></li>
+                            <li>
+                                <button onclick="toggle(this)">الخدمات</button>
+                                <ul class="nested-menu d-none">
+                                    <li><a href="#">خدمة 1</a></li>
+                                    <li>
+                                        <button onclick="toggle(this)">أخرى</button>
+                                        <ul class="nested-menu d-none">
+                                            <li><a href="#">تفاصيل</a></li>
+                                            <li><a href="#">تفاصيل إضافية</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">الدراسات والأبحاث</a></li>
+                    <li><a href="#">المبادرات والمشاريع</a></li>
+                </ul>
+            </li>
+            <li><a href="#">البرامج</a></li>
+            <li><a href="#">الخدمات</a></li>
+            <li>
+                <button onclick="toggle(this)">الأنظمة</button>
+                <ul class="nested-menu d-none">
+                    <li><a href="#">نظام 1</a></li>
+                    <li><a href="#">نظام 2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Bootstrap 4 JS + jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function toggle(btn) {
+            const submenu = btn.nextElementSibling;
+            submenu.classList.toggle('d-none');
+        }
+    </script>
+</body>
+
+</html>

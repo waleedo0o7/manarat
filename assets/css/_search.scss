@@ -1,0 +1,31 @@
+.products-list-layout {
+    display: flex;
+    width: calc(100% - var(--base-gap));
+    margin-top: 20px;
+    gap: var(--base-gap);
+
+    @media all and (max-width : $breakpoint-xl) {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    >.start {
+        width: 25%;
+        min-width: 25%;
+
+        @media all and (max-width : $breakpoint-xl) {
+            width: 100%;
+            min-width: unset;
+        }
+    }
+
+    >.end {
+        width: 75%;
+        min-width: 75%;
+
+        @media all and (max-width : $breakpoint-xl) {
+            width: 100%;
+            min-width: unset;
+        }
+    }
+}
