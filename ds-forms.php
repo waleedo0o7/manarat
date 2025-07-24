@@ -349,7 +349,6 @@
                                         <input type="text" class="form-control" placeholder="placeholder">
 
                                         <div class="end-content">
-
                                             <i class="icon icon-check icon-sm color-success me-2"></i>
                                             <a href="#" class="link link-primary"> Edit </a>
                                         </div>

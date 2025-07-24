@@ -97,14 +97,12 @@ h6,
 
 
 .page-header {
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     position: relative;
-    background: url(../images/page-header-bg/about.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #F9FAFB;
 
     @media all and (max-width : $breakpoint-xl) {
-        padding-top: 50px;
 
 
         .breadcrumb {
@@ -126,76 +124,54 @@ h6,
     .page-title {
         position: relative;
         font-size: 40px;
-    }
-
-    &:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        opacity: 0.9;
-        background: linear-gradient(166deg, rgba(109, 194, 58, 0.4) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0.8) 100%);
+        font-weight: 600;
     }
 
 
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+    }
 
-    img.shape {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        background: #202020;
+    .breadcrumb-item+.breadcrumb-item {
 
-        @media all and (max-width : $breakpoint-xl) {
-            display: none;
+        &.active {
+            color: var(--color-gray-light-500);
         }
-    }
-
-}
-
-
-.breadcrumb {
-    background-color: transparent;
-    padding: 0;
-}
-
-.breadcrumb-item+.breadcrumb-item {
-    color: #fff;
-
-    &.active {
-        color: var(--color-primary-light-300);
-    }
-
-    &:before {
-        color: #fff;
-        content: "\e907";
-        font-family: "icomoon" !important;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 2;
-        -webkit-font-smoothing: antialiased;
-        font-size: 10px;
-    }
-
-    [dir="rtl"] & {
-        padding-left: unset;
-        padding-right: .5rem;
 
         &:before {
-            content: "\e906";
-            float: right;
-            padding-right: unset;
-            padding-left: .5rem;
+            content: "\e908";
+            font-family: "icomoon" !important;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 2;
+            -webkit-font-smoothing: antialiased;
+            font-size: 12px;
+            padding-top: 1px;
+        }
+
+        [dir="rtl"] & {
+            padding-left: unset;
+            padding-right: .5rem;
+
+            &:before {
+                content: "\e908";
+                float: right;
+                padding-right: unset;
+                padding-left: .5rem;
+            }
         }
     }
 }
 
+
+
 .inner-content {
-    padding-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #F9FAFB;
 
     @media all and (max-width : $breakpoint-xl) {
         padding-top: 30px;
@@ -902,4 +878,11 @@ h6,
     padding: 13px;
     border-radius: 500px;
     overflow: visible;
+}
+
+
+
+.login {
+    background: linear-gradient(0deg, rgba(9, 42, 30, .8), rgba(9, 42, 30, .8)), url(../images/hero-section.png) 50% 50% / cover;
+    padding: 80px 0;
 }

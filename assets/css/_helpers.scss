@@ -381,6 +381,12 @@ small,
     text-align: start !important;
 }
 
+.text-lg-start {
+    @media all and (min-width : $breakpoint-xl) {
+        text-align: start !important;
+    }
+}
+
 
 /* Width classes */
 @for $i from 1 through 100 {

@@ -117,6 +117,23 @@
 
 }
 
+
+
+.btn-light {
+    background-color: var(--color-gray-light-200);
+    border-color: var(--color-gray-light-200);
+
+    &:hover,
+    &:active {
+        background-color: var(--color-gray-light-300);
+        border-color: var(--color-gray-light-300);
+        text-decoration: none !important;
+    }
+
+}
+
+
+
 .btn-outline-primary {
 
     &:hover,

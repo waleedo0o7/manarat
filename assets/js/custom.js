@@ -10,6 +10,11 @@ $(function () {
     toggleMobileMenu();
     toggleMobileSearch();
 
+    
+    $(".flatpickr").flatpickr();
+    $('.select2').select2();
+
+
     $(document).on('click', '.dropdown.prevent-auto-close .dropdown-menu', function (e) {
         e.stopPropagation();
     });
