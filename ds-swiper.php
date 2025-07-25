@@ -21,7 +21,7 @@
 
                 <h3 class="text-left mb-4"> test 2 swiper ( id = test2 )</h3>
 
-                <div class="swiper-slider-wrapper arrows-sides pagination-bottom card" style="border: 1px solid #ff000022">
+                <div class="swiper-slider-wrapper arrows-sides pagination-bottom">
 
                     <div class="swiper-container swiper-custom"
                         data-per-view="4"

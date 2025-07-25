@@ -163,7 +163,7 @@
 
             </div>
 
-            <div class="end flex-center gap-4">
+            <div class="end flex-center gap-3">
 
                 <a href="#" class="flex-center gap-2 no-hover">
                     <i class="icon icon-lg icon-search"></i>

@@ -213,13 +213,18 @@
 }
 
 select.form-control {
-    background-image: url(../img/icons/arrow-down.svg) !important;
+    background-image: url(../images/icons-svg/chevron-down.svg) !important;
     background-position: calc(100% - 15px) 50%;
-    background-size: 14px;
+    background-size: 13px;
     background-repeat: no-repeat;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    padding: 8px 15px;
+
+    [dir="rtl"] & {
+        background-position: 10px 12px;
+    }
 }
 
 .select2 {
@@ -406,6 +411,9 @@ select.form-control {
 
 
 .custom-control-input {
+    width: 50px;
+    height: 30px;
+
     [dir="rtl"] & {
         left: unset;
         right: 0;

@@ -36,7 +36,7 @@
 
             .nav-link {
                 font-size: 16px;
-                padding: 20px 13px;
+                padding: 26px 13px;
                 position: relative;
                 font-weight: 600;
                 transition: all 0s ease-in-out;
@@ -124,6 +124,7 @@
 
 .header-wrapper {
     border-bottom: 1px solid var(--color-gray-light-300);
+    background-color: #FFF;
 }
 
 .sticky {

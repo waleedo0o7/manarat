@@ -22,7 +22,7 @@
 
     </section>
 
-    <section class="ideas-wrapper section-padding bg-gray-light">
+    <section class="ideas-wrapper section-padding">
 
         <div class="container">
 
@@ -89,7 +89,7 @@
 
     </section>
 
-    <section class="apply-guide section-padding">
+    <section class="apply-guide section-padding bg-white">
 
         <div class="container">
 
@@ -144,7 +144,7 @@
 
     </section>
 
-    <section class="sent-ideas bg-gray-light section-padding">
+    <section class="sent-ideas section-padding">
 
         <div class="container">
 
@@ -179,14 +179,14 @@
                                     </div>
 
                                     <div class="flex-start mb-3">
-                                        <span class="py-1 px-2 bg-gray-light base-border-radius me-2 base-border small bold"> مبادرة توعية </span>
-                                        <span class="py-1 px-2 bg-gray-light base-border-radius me-2 base-border small bold"> حل تقني </span>
-                                        <span class="py-1 px-2 bg-gray-light base-border-radius me-2 base-border small bold"> مقترح تطوير </span>
+                                        <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مبادرة توعية </span>
+                                        <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> حل تقني </span>
+                                        <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مقترح تطوير </span>
                                     </div>
 
                                     <a href="#" class="btn btn-light flex-center gap-1">
                                         <span> اطلع على التفاصيل </span>
-                                        <i class="icon icon-lg icon-arrow-left"></i>
+                                        <i class="icon icon-lg icon-arrow-right"></i>
                                     </a>
 
                                 </div> <!-- card -->
@@ -213,7 +213,7 @@
 
     </section>
 
-    <section class="faq section-padding">
+    <section class="faq section-padding bg-white">
 
         <div class="container">
 
@@ -294,124 +294,6 @@
         </div>
 
     </section>
-
-    <section class="is-it-useful">
-
-        <div class="container">
-
-            <div class="flex-between mb-3">
-
-                <div class="start">
-                    <div class="flex-start gap-3">
-                        <p class="lead m-0"> هل كانت هذه الصفحة مفيدة؟ </p>
-                        <a href="#" class="btn btn-sm btn-primary"> نعم </a>
-                        <a href="#" class="btn btn-sm btn-primary"> لأ </a>
-
-                    </div>
-                </div>
-
-                <div class="end">
-                    <a href="#" class="btn p-0 flex-start gap-2">
-                        إغلاق
-                        <i class="icon icon-lg icon-close-circle"></i>
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="row mb-0">
-
-                <div class="col-lg-6">
-
-                    <div class="mb-4">
-                        <p>
-                            <span class="lead bold"> من فضلك أخبرنا بالسبب </span>
-                            <span class="text-gray small"> (يمكنك تحديد خيارات متعددة) </span>
-                        </p>
-
-                        <div class="custom-control custom-checkbox mb-2">
-                            <input type="checkbox" class="custom-control-input" id="customCheck10" checked="">
-                            <label class="custom-control-label" for="customCheck10"> المحتوى ذو صلة </label>
-                        </div>
-
-                        <div class="custom-control custom-checkbox mb-2">
-                            <input type="checkbox" class="custom-control-input" id="customCheck20">
-                            <label class="custom-control-label" for="customCheck20"> لقد كانت مكتوبة بشكل جيد </label>
-                        </div>
-
-                        <div class="custom-control custom-checkbox mb-2">
-                            <input type="checkbox" class="custom-control-input" id="customCheck30">
-                            <label class="custom-control-label" for="customCheck30"> جعل التخطيط من السهل القراءة </label>
-                        </div>
-
-                        <div class="custom-control custom-checkbox mb-2">
-                            <input type="checkbox" class="custom-control-input" id="customCheck40">
-                            <label class="custom-control-label" for="customCheck40"> شيء آخر </label>
-                        </div>
-
-                    </div>
-
-                    <div class="flex-start mb-4">
-
-
-                        <label class="main-label me-2"> أنا </label>
-
-                        <div class="form-group mb-2">
-
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" checked>
-                                <label class="custom-control-label" for="customRadioInline1"> ذكر </label>
-                            </div>
-
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline2"> أنثى </label>
-                            </div>
-
-                        </div> <!-- form-group -->
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6">
-
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1"> تعليق </label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="النص المُدخل"></textarea>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="row flex-start mb-4">
-                <div class="col-lg-6">
-                    <p class="">
-                        لمزيد من المعلومات يمكنك مراجعة
-                        <a href="https://my.gov.sa/ar/content/e-participation#section-1" target="_blank" rel="noopener noreferrer" class="color-primary">بيان المشاركة الإلكترونية</a>
-                        و
-                        <a href="https://my.gov.sa/ar/content/subscribe#section-1" target="_blank" rel="noopener noreferrer" class="color-primary">قواعد الاشتراك</a>
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="text-end">
-                        <a href="#" class="btn btn-primary">إرسال</a>
-                    </div>
-                </div>
-            </div>
-
-        </div> <!-- container -->
-
-    </section>
-
-
-    <div class="last-update-date-wrapper base-border py-3">
-        <div class="container">
-            <p class="text-start m-0"> آخر تحديث: 1/1/2024</p>
-        </div>
-    </div>
 
 
 

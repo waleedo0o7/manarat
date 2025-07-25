@@ -388,6 +388,10 @@ small,
 }
 
 
+.pb-60px {
+    padding-bottom: 60px;
+}
+
 /* Width classes */
 @for $i from 1 through 100 {
     .w-#{$i * 5}px {

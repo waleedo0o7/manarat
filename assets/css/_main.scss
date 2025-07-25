@@ -34,15 +34,15 @@ a {
     }
 }
 
-.container {
-    @media (min-width: $breakpoint-xl) {
-        max-width: 1300px;
-    }
+// .container {
+//     @media (min-width: $breakpoint-xl) {
+//         max-width: 1300px;
+//     }
 
-    @media (max-width: $breakpoint-xl) {
-        max-width: unset;
-    }
-}
+//     @media (max-width: $breakpoint-xl) {
+//         max-width: unset;
+//     }
+// }
 
 .container-md {
     @media (min-width: $breakpoint-md) {

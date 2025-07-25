@@ -32,7 +32,7 @@
                 <div class="dropdown">
                     <button class="btn btn-light base-border" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         ترتيب حسب
-                        <i class="icon icon-chevron-down icon-xs ms-1"></i>
+                        <i class="icon icon-sort icon-sm ms-2"></i>
                     </button>
                     <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#"> ترتيب 1 </a>
@@ -43,7 +43,6 @@
                 </div>
 
             </div>
-
 
             <div class="row">
 
@@ -61,14 +60,14 @@
                             </div>
 
                             <div class="flex-start mb-3">
-                                <span class="py-1 px-2 bg-gray-light base-border-radius me-2 base-border small bold"> مبادرة توعية </span>
-                                <span class="py-1 px-2 bg-gray-light base-border-radius me-2 base-border small bold"> حل تقني </span>
-                                <span class="py-1 px-2 bg-gray-light base-border-radius me-2 base-border small bold"> مقترح تطوير </span>
+                                <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مبادرة توعية </span>
+                                <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> حل تقني </span>
+                                <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مقترح تطوير </span>
                             </div>
 
                             <a href="#" class="btn btn-light flex-center gap-1">
                                 <span> اطلع على التفاصيل </span>
-                                <i class="icon icon-lg icon-arrow-left"></i>
+                                <i class="icon icon-lg icon-arrow-right"></i>
                             </a>
 
                         </div> <!-- card -->

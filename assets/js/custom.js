@@ -10,7 +10,30 @@ $(function () {
     toggleMobileMenu();
     toggleMobileSearch();
 
-    
+
+    $(document).on('click', '.upload-files-button', function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        $("#upload-files-input").click();
+
+        const fileInput = document.getElementById("upload-files-input");
+        const fileList = document.getElementById("files-list");
+
+        fileInput.addEventListener("change", () => {
+            const files = Array.from(fileInput.files);
+            fileList.innerHTML = "";
+
+            files.forEach((file) => {
+                const sizeMB = (file.size / (1024 * 1024)).toFixed(2);
+                const fileItem = document.createElement("div");
+                fileItem.textContent = `📎 ${file.name} (${sizeMB} MB)`;
+                fileList.appendChild(fileItem);
+            });
+        });
+
+
+    });
+
     $(".flatpickr").flatpickr();
     $('.select2').select2();
 
@@ -117,3 +140,46 @@ function toggle(btn) {
     const submenu = btn.nextElementSibling;
     submenu.classList.toggle('d-none');
 }
+
+$(document).ready(function () {
+    $('input[name="is-page-useful"]').on('change', function () {
+        const selectedId = $(this).attr('id');
+
+        if (selectedId === 'is-page-useful') {
+            // المستخدم اختار "نعم"
+            $('.useful-options').show();
+            $('.not-useful-options').hide();
+        } else {
+            // المستخدم اختار "لا"
+            $('.useful-options').hide();
+            $('.not-useful-options').show();
+        }
+    });
+});
+
+$(document).ready(function () {
+    $('.show-comments').on('click', function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        $('.comments-content').css("display", "block");
+    });
+});
+
+$(document).ready(function () {
+    $('.toggle-show-password-button').on('click', function (e) {
+
+        if ($(this).parents(".form-group").find("input").attr("type") == "password") {
+            $(this).parents(".form-group").find("input").attr("type", "text");
+            $(this).removeClass("icon-eye-closed");
+            $(this).addClass("icon-eye");
+        } else {
+            $(this).parents(".form-group").find("input").attr("type", "password");
+            $(this).removeClass("icon-eye");
+            $(this).addClass("icon-eye-closed");
+        }
+
+    });
+});
+
+
+

@@ -33,10 +33,10 @@
                         <div class="form-group input-with-start-icon">
                             <label> كلمة المرور </label>
                             <div class="relative">
-                                <input type="text" class="form-control gray" placeholder="كلمة المرور">
+                                <input type="password" class="form-control gray" placeholder="كلمة المرور">
                                 <i class="icon icon-lock start-icon icon-lg color-gray"></i>
                                 <div class="end-content">
-                                    <i class="icon icon-eye"></i>
+                                    <i class="icon icon-eye-closed toggle-show-password-button cursor-pointer"></i>
                                 </div>
                             </div>
                         </div> <!-- form-group -->
