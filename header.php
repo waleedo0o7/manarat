@@ -1,5 +1,5 @@
 <!doctype html> 
-<html dir="<?php if (isset($_GET['dir'])) echo $_GET['dir']; ?>" style="--font-size-scale: 0.95;">
+<html dir="<?php if (isset($_GET['dir'])) echo $_GET['dir']; ?>">
 
 <head>
     <meta charset="utf-8">

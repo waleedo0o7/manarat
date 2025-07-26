@@ -855,7 +855,6 @@ h6,
 
 .home-intro-wrapper {
     padding: 120px 0;
-    background-image: linear-gradient(0deg, rgba(9, 42, 30, 0.8) 0%, rgba(9, 42, 30, 0.8) 100%), url('../images/hero-section.png');
     background-position: center;
     background-size: cover;
     color: #ffffff;
@@ -876,6 +875,18 @@ h6,
 
 
 
+}
+
+.ideas-wrapper {
+    .row.custom-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        row-gap: 20px;
+
+    }
 }
 
 

@@ -3,7 +3,9 @@
 
 <div class="page home">
 
-    <section class="home-intro-wrapper">
+    <section class="home-intro-wrapper"
+
+        style="background-image: linear-gradient(0deg, rgba(9, 42, 30, 0.8) 0%, rgba(9, 42, 30, 0.8) 100%), url(assets/images/hero-section.png);">
 
         <div class="container">
 
@@ -31,10 +33,11 @@
                 <p class="lead"> معايير ومقاييس الافكار الإبداعية التي نستقبلها التي تدعم الإبتكار او تعزز كفاءة التشغيل </p>
             </div>
 
-            <div class="row">
+            <div class="row custom-row">
 
                 <div class="col-lg-4">
-                    <div class="card mb-3">
+
+                    <div class="card h-100">
                         <div class="flex-center w-50px h-50px bg-primary-faded-shape mb-2">
                             <i class="icon icon-lg icon-settings color-primary"></i>
                         </div>
@@ -44,17 +47,19 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card mb-3">
+
+                    <div class="card h-100">
                         <div class="flex-center w-50px h-50px bg-primary-faded-shape mb-2">
                             <i class="icon icon-lg icon-wrench color-primary"></i>
                         </div>
                         <h5 class="bold mb-2"> مقترحات التطوير</h5>
-                        <p class="lead color-gray m-0"> أفكار تدعم الاستدامة وزيادة الكفاءة </p>
+                        <p class="lead color-gray m-0"> أفكار تدعم الاستدامة وزيادة الكفاءة أفكار تدعم الاستدامة وزيادة الكفاءة أفكار تدعم الاستدامة وزيادة الكفاءة </p>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card mb-3">
+
+                    <div class="card h-100">
                         <div class="flex-center w-50px h-50px bg-primary-faded-shape mb-2">
                             <i class="icon icon-lg icon-network color-primary"></i>
                         </div>
@@ -64,7 +69,8 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card mb-3">
+
+                    <div class="card h-100">
                         <div class="flex-center w-50px h-50px bg-primary-faded-shape mb-2">
                             <i class="icon icon-lg icon-initiatives color-primary"></i>
                         </div>
@@ -74,7 +80,8 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card mb-3">
+
+                    <div class="card h-100">
                         <div class="flex-center w-50px h-50px bg-primary-faded-shape mb-2">
                             <i class="icon icon-lg icon-productivity color-primary"></i>
                         </div>
@@ -148,9 +155,17 @@
 
         <div class="container">
 
-            <div class="d-block mb-5">
-                <h2 class="bold mb-2"> الأفكار المرسلة </h2>
-                <p class="lead"> معايير ومقاييس الافكار الإبداعية التي نستقبلها التي تدعم الإبتكار او تعزز كفاءة التشغيل </p>
+            <div class="flex-between">
+                <div class="start">
+                    <div class="d-block mb-5">
+                        <h2 class="bold mb-2"> الأفكار المرسلة </h2>
+                        <p class="lead"> معايير ومقاييس الافكار الإبداعية التي نستقبلها التي تدعم الإبتكار او تعزز كفاءة التشغيل </p>
+                    </div>
+
+                </div>
+                <div class="end">
+                    <a href="#" class="btn btn-primary"> استعرض المزيد </a>
+                </div>
             </div>
 
             <div class="swiper-slider-wrapper arrows-sides ">

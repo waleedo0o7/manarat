@@ -1,67 +1,23 @@
-<div class="top-bar-1-wrapper bg-gray">
+<div class="top-bar-1-wrapper bg-gray py-2">
 
     <div class="container">
 
-        <div class="custom-accordion">
 
-            <div class="accordion-item no-border p-0">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="custom-accordion">
 
-                <div class="accordion-item-header" id="heading-one">
-                    <button class="accordion-button" data-toggle="collapse" data-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
-                        <p class="d-flex font-medium m-0 text-start">
-                            <img src="assets/images/icons-svg/country-flags.svg" alt="">
-                            <span class="mx-2"> موقع حكومي رسمي تابع لحكومة المملكة العربية السعودية <span class="color-primary"> كيف تتحقق؟ </span> </span>
-                        </p>
-                    </button>
-                </div>
+                    <div class="accordion-item no-border p-0">
 
-                <div id="collapse-one" class="collapse " aria-labelledby="heading-one" data-parent="#accordion">
-
-                    <div class="accordion-item-body pb-4">
-
-                        <div class="row mb-2">
-
-                            <div class="col-lg-6 d-flex align-items-center gap-2">
-                                <img src="assets/images/link-icon.svg" alt="Link Icon">
-                                <div>
-                                    <h6 class="text-xl bold mb-3">
-                                        روابط المواقع الالكترونية الرسمية السعودية تنتهي بـ
-                                        <span class="color-primary">gov.sa</span>
-                                    </h6>
-                                    <p class="text-lg">
-                                        جميع روابط المواقع الرسمية التابعة للجهات الحكومية في
-                                        المملكة العربية السعودية تنتهي بـ .gov.sa
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 d-flex align-items-center gap-2">
-                                <img src="assets/images/square-lock-password.svg" alt="Password Icon">
-                                <div>
-                                    <h6 class="text-xl bold mb-3">
-                                        المواقع الالكترونية الحكومية تستخدم بروتوكول
-                                        <span class="color-primary"> HTTPS </span>
-                                        للتشفير و الأمان.
-                                    </h6>
-                                    <p class="text-lg">
-                                        المواقع الالكترونية الآمنة في المملكة العربية السعودية
-                                        تستخدم بروتوكول HTTPS للتشفير.
-                                    </p>
-                                </div>
-                            </div>
-
+                        <div class="accordion-item-header" id="heading-one">
+                            <button class="accordion-button w-auto" data-toggle="collapse" data-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
+                                <p class="d-flex font-medium m-0 text-start">
+                                    <img src="assets/images/icons-svg/country-flags.svg" alt="">
+                                    <span class="mx-2"> موقع حكومي رسمي تابع لحكومة المملكة العربية السعودية <span class="color-primary"> كيف تتحقق؟ </span> </span>
+                                </p>
+                            </button>
                         </div>
 
-
-
-
-                        <div class="flex-start gap-2 bg-light p-2 base-border-radius">
-                            <img src="assets/images/icons-svg/DGA-logo-icon.svg" alt="Dga Logo">
-                            <p class="font-medium m-0">
-                                مسجل لدى هيئة الحكومة الرقمية برقم :
-                            </p>
-                            <a class="font-medium" href="https://raqmi.dga.gov.sa/platforms/DigitalStamp/ShowCertificate/4990">20240520402</a>
-                        </div>
 
 
                     </div>
@@ -69,8 +25,82 @@
                 </div>
 
             </div>
+            <div class="col-lg-6 d-flex justify-content-end">
+                <div class="card no-border py-2 d-flex justify-content-center align-items-center flex-row w-fit-content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-alert-square-rounded ">
+                        <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"></path>
+                        <path d="M12 8v4"></path>
+                        <path d="M12 16h.01"></path>
+                    </svg>
+                    <p class="m-0 ms-1">نسخة تجريبية</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="collapse-one" class="collapse " aria-labelledby="heading-one" data-parent="#accordion">
+
+            <div class="accordion-item-body py-4">
+
+                <div class="row mb-2">
+
+                    <div class="col-lg-6 d-flex gap-2">
+                        <i class="icon icon-track display-3 color-primary"></i>
+                        <div>
+                            <h6 class="text-xl bold mb-3">
+                                روابط المواقع الالكترونية الرسمية السعودية تنتهي بـ
+                                <span class="color-primary">gov.sa</span>
+                            </h6>
+                            <p class="text-lg">
+                                جميع روابط المواقع الرسمية التابعة للجهات الحكومية في
+                                المملكة العربية السعودية تنتهي بـ .gov.sa
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 d-flex gap-2">
+                        <i class="icon icon-lock-circle display-3 color-primary"></i>
+                        <div>
+                            <h6 class="text-xl bold mb-3">
+                                المواقع الالكترونية الحكومية تستخدم بروتوكول
+                                <span class="color-primary"> HTTPS </span>
+                                للتشفير و الأمان.
+                            </h6>
+                            <p class="text-lg">
+                                المواقع الالكترونية الآمنة في المملكة العربية السعودية
+                                تستخدم بروتوكول HTTPS للتشفير.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="flex-start gap-2 bg-light p-2 base-border-radius">
+                    <img src="assets/images/icons-svg/DGA-logo-icon.svg" alt="Dga Logo">
+                    <p class="font-medium m-0">
+                        مسجل لدى هيئة الحكومة الرقمية برقم :
+                    </p>
+                    <a class="font-medium" href="https://raqmi.dga.gov.sa/platforms/DigitalStamp/ShowCertificate/4990">20240520402</a>
+                </div>
+
+
+            </div>
 
         </div>
+
+
+
+
+
+
+
+
+
+
 
     </div>
 
@@ -106,19 +136,19 @@
 
                 <div class="d-flex justify-content-lg-end w-100 gap-3">
 
-                    <a href="#" class="w-20px h-20px d-inline-flex">
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
                         <i class="icon icon-lg icon-eye"></i>
                     </a>
 
-                    <a href="#" class="w-20px h-20px d-inline-flex">
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
                         <i class="icon icon-lg icon-zoom-in"></i>
                     </a>
 
-                    <a href="#" class="w-20px h-20px d-inline-flex">
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
                         <i class="icon icon-lg icon-zoom-out"></i>
                     </a>
 
-                    <a href="#" class="w-20px h-20px d-inline-flex">
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
                         <i class="icon icon-lg icon-microphone"></i>
                     </a>
                 </div>

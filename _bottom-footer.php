@@ -17,41 +17,42 @@
                     </div>
                 </div>
 
-            </div>
 
+                <div class="comments-content mt-3" style="display : none">
 
-            <div class="comments-content" style="display : none">
+                    <p class="mb-4 font-medium h4"> إرسال تعليق </p>
 
-                <p class="mb-4 font-medium h4"> إرسال تعليق </p>
+                    <div class="row">
 
-                <div class="row">
-
-                    <div class="col-lg-6">
-                        <div class="form-group">
-                            <label> الإسم </label>
-                            <input type="text" class="form-control" placeholder="الإسم">
-                        </div> <!-- form-group -->
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="form-group">
-                            <label> البريد الإلكتروني </label>
-                            <input type="text" class="form-control" placeholder="البريد الإلكتروني">
-                        </div> <!-- form-group -->
-                    </div>
-
-                    <div class="col-lg-12">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"> تعليقك </label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="النص المُدخل"></textarea>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label> الإسم </label>
+                                <input type="text" class="form-control" placeholder="الإسم">
+                            </div> <!-- form-group -->
                         </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label> البريد الإلكتروني </label>
+                                <input type="text" class="form-control" placeholder="البريد الإلكتروني">
+                            </div> <!-- form-group -->
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1"> تعليقك </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="النص المُدخل"></textarea>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <a href="#" class="btn btn-primary"> إرسال التعليق </a>
 
                 </div>
 
-                <a href="#" class="btn btn-primary"> إرسال التعليق </a>
-
             </div>
+
         </div>
 
     </div>
@@ -71,9 +72,11 @@
 
                             <div class="form-group mb-0">
 
+                                <p class="mb-3 color-primary bold lead"> شاركنا رأيك، وساهم بالتحسين. </p>
+
                                 <label class="main-label"> هل كانت هذه الصفحة مفيدة؟ </label>
 
-                                <div class="custom-radio-wrapper">
+                                <div class="custom-radio-wrapper mb-2">
 
                                     <div class="custom-control custom-radio custom-control-inline me-3">
                                         <input type="radio" id="is-page-useful" name="is-page-useful" class="custom-control-input">
@@ -86,6 +89,8 @@
                                     </div>
 
                                 </div> <!-- custom-radio-wrapper -->
+
+                                <p class="color-gray"> 728 من الزوار أعجبهم محتوى الصفحة من أصل 869</p>
 
                             </div> <!-- form-group -->
 
@@ -178,7 +183,8 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="text-end">
-                                    <a href="#" class="btn btn-primary">إرسال</a>
+                                    <a href="#" class="btn btn-primary me-2">إرسال</a>
+                                    <a href="#" class="btn btn-gray"> الغاء </a>
                                 </div>
                             </div>
                         </div>
