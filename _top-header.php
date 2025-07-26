@@ -174,8 +174,6 @@
                 <ul class="nav-links reset-list flex-start">
                     <li class="nav-item"><a class="nav-link active" href="homepage.php?dir=rtl"> الرئيسية </a></li>
                     <li class="nav-item"><a class="nav-link" href="#"> عن الهيئة </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> الخطة الإستراتيجية </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> المركز الإعلامي </a></li>
 
                     <li class="nav-item dropdown" onmouseover="this.classList.add('show'); this.querySelector('.dropdown-menu').classList.add('show');" onmouseout="this.classList.remove('show'); this.querySelector('.dropdown-menu').classList.remove('show');">
                         <a class="nav-link dropdown-toggle" href="our-work.php?dir=rtl" id="ourWorkDropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -200,15 +198,56 @@
                     <span class="font-medium"> البحث </span>
                 </a>
 
-                <a href="#" class="flex-center gap-2 no-hover">
-                    <i class="icon icon-lg icon-translate"></i>
-                    <span class="font-medium"> English </span>
-                </a>
+
+
+                <div class="dropdown">
+                    <button class="reset-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <div class="flex-between gap-2">
+                            <i class="icon icon-lg icon-translate"></i>
+                            <span class="font-medium"> اللغة </span>
+                        </div>
+                    </button>
+                    <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">  عربي   </a>
+                        <a class="dropdown-item" href="#">  English   </a>
+                        <a class="dropdown-item" href="#">  Frensh   </a>
+                    </div>
+                </div>
+
+
 
                 <a href="#" class="flex-center gap-2 no-hover">
                     <i class="icon icon-lg icon-user-2"></i>
                     <span class="font-medium"> تسجيل الدخول </span>
                 </a>
+
+
+
+                <div class="dropdown">
+                    <button class="reset-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <div class="flex-between gap-2">
+
+                            <div class="start flex-center">
+                                <i class="icon icon-lg icon-user-2"></i>
+                            </div>
+
+                            <div class="center text-start flex-center">
+                                <p class="m-0"> وليد سعيد ابراهيم </p>
+                            </div>
+
+                            <div class="end flex-center">
+                                <i class="icon icon-chevron-down icon-sm"></i>
+                            </div>
+
+                        </div>
+                    </button>
+                    <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#"> لوحة التحكم </a>
+                        <a class="dropdown-item" href="#"> تسجيل خروج </a>
+                    </div>
+                </div>
+
+
 
             </div>
 
