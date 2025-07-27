@@ -1,6 +1,25 @@
+.top-bar-1-wrapper,
+.top-bar-2-wrapper {
+    @media all and (max-width : $breakpoint-lg) {
+        .end {
+            display: none !important;
+        }
+    }
+}
+
+
+.top-bar-3-wrapper {
+    @media all and (min-width : $breakpoint-lg) {
+        display: none !important;
+    }
+}
+
+
+
 .top-bar-2-wrapper {
     border: 1px solid var(--color-gray-light-300);
 }
+
 
 .web-app-top-bar {
     display: flex;
@@ -166,10 +185,12 @@
         padding: 15px;
     }
 
+
+
 }
 
 .mobile-menu-popup {
-    padding: 15px;
+    padding: 0px;
     position: fixed;
     top: 0;
     left: 0;
@@ -188,9 +209,7 @@
     }
 
     a.toggle-mobile-menu-button {
-        position: absolute;
-        top: 20px;
-        #{$right}: 20px;
+
         cursor: pointer;
     }
 
@@ -214,7 +233,15 @@
     .bottom {
         width: 100%;
         margin-bottom: 20px;
+
+        padding: 0 20px;
     }
+
+
+
+
+
+
 
 
     @media all and (max-width : $breakpoint-xl) {
@@ -232,7 +259,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                padding: 10px 0;
+                padding: 12px;
             }
 
         }
@@ -271,6 +298,12 @@
         }
 
 
+    }
+
+
+    .menu-wrapper {
+        max-height: calc(100vh - 170px);
+        overflow: auto;
     }
 
 

@@ -395,6 +395,26 @@ small,
     padding-bottom: 60px;
 }
 
+
+.justify-lg-content-end {
+    @media all and (min-width : $breakpoint-lg) {
+        justify-content: end !important;
+    }
+}
+
+.justify-lg-content-start {
+    @media all and (min-width : $breakpoint-lg) {
+        justify-content: start !important;
+    }
+}
+
+.justify-lg-content-center {
+    @media all and (min-width : $breakpoint-lg) {
+        justify-content: start !important;
+    }
+}
+
+
 /* Width classes */
 @for $i from 1 through 100 {
     .w-#{$i * 5}px {

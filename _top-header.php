@@ -3,7 +3,8 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-6">
+
+            <div class="start col-lg-6 d-flex justify-content-center justify-lg-content-start">
                 <div class="custom-accordion">
 
                     <div class="accordion-item no-border p-0">
@@ -22,15 +23,15 @@
                 </div>
 
             </div>
-            <div class="col-lg-6 d-flex justify-content-end color-gray">
+
+            <div class="end col-lg-6 d-flex justify-content-end color-gray">
                 <div class="card no-border py-2 d-flex justify-content-center align-items-center flex-row w-fit-content">
                     <i class="icon icon-info"></i>
                     <p class="m-0 ms-1">نسخة تجريبية</p>
                 </div>
-
             </div>
-        </div>
 
+        </div>
 
         <div id="collapse-one" class="collapse " aria-labelledby="heading-one" data-parent="#accordion">
 
@@ -85,16 +86,6 @@
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
     </div>
 
 </div> <!-- top-bar-1-wrapper -->
@@ -103,7 +94,7 @@
     <div class="container">
         <div class="top-bar-2 row flex-between align-items-center">
 
-            <div class="col-lg-6 flex-start gap-3 mb-3 mb-lg-0">
+            <div class="start col-lg-6 d-flex justify-content-center justify-lg-content-start gap-3 mb-3 mb-lg-0">
                 <span class="d-flex align-items-center gap-2">
                     <i class="icon icon-xl icon-cloud"></i>
                     غائم
@@ -125,9 +116,9 @@
                 </span>
             </div>
 
-            <div class="col-lg-6 gap-4">
+            <div class="end col-lg-6 d-flex justify-content-end gap-4">
 
-                <div class="d-flex justify-content-lg-end w-100 gap-3">
+                <div class="d-flex gap-3">
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
                         <i class="icon icon-lg icon-eye"></i>
@@ -151,6 +142,39 @@
         </div>
     </div>
 </div> <!-- top-bar-2-wrapper -->
+
+<!-- this bar show only in small screens -->
+<div class="top-bar-3-wrapper bg-gray p-2">
+    <div class="flex-between">
+        <div class="start">
+            <div class="card no-border py-2 d-flex justify-content-center align-items-center flex-row w-fit-content">
+                <i class="icon icon-info"></i>
+                <p class="m-0 ms-1">نسخة تجريبية</p>
+            </div>
+        </div>
+
+        <div class="end">
+            <div class="d-flex gap-3">
+
+                <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                    <i class="icon icon-lg icon-eye"></i>
+                </a>
+
+                <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                    <i class="icon icon-lg icon-zoom-in" id="increaseFontSizeBtn"></i>
+                </a>
+
+                <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                    <i class="icon icon-lg icon-zoom-out" id="decreaseFontSizeBtn"></i>
+                </a>
+
+                <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                    <i class="icon icon-lg icon-microphone"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="header-wrapper">
 
@@ -270,35 +294,113 @@
 
 <div class="mobile-top-bar">
 
-    <div class="start">
-        <a class="toggle-mobile-menu-button cursor-pointer">
+    <div class="start flex-start gap-3">
 
-            <img src="assets/images/bars.svg" class="w-25px h-25px" alt="Menu icon">
-        </a>
+        <i class="icon icon-lg icon-search" data-toggle="modal" data-target="#search-modal"></i>
+
+        <div class="dropdown translate-dropdown">
+            <button class="reset-btn flex-center" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                <div class="flex-between gap-2">
+                    <i class="icon icon-lg icon-translate"></i>
+                </div>
+            </button>
+            <div class="dropdown-menu w-100 text-start" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">
+                    <span class="flag-icon flag-icon-sa me-1"></span>
+                    عربي
+                </a>
+                <a class="dropdown-item" href="#">
+                    <span class="flag-icon flag-icon-us me-1"></span>
+                    English
+                </a>
+                <a class="dropdown-item" href="#">
+                    <span class="flag-icon flag-icon-fr me-1"></span>
+                    Frensh
+                </a>
+            </div>
+        </div>
+
     </div>
 
-    <div class="end">
+    <div class="center">
         <a href="homepage.php?dir=rtl">
             <img src="assets/images/icons-svg/logo.svg" class="w-50px">
         </a>
     </div>
 
+    <div class="end flex-start align-items-center justify-content-center gap-3">
+
+
+
+
+        <div class="dropdown">
+            <button class="reset-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                <div class="flex-between gap-2">
+
+                    <div class="start flex-center">
+                        <i class="icon icon-lg icon-user-2"></i>
+                    </div>
+
+                    <div class="center text-start flex-center">
+                        <p class="m-0"> وليد سعيد ابراهيم </p>
+                    </div>
+
+                    <div class="end flex-center">
+                        <i class="icon icon-chevron-down icon-sm"></i>
+                    </div>
+
+                </div>
+            </button>
+            <div class="dropdown-menu p-0 text-start" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item py-2 px-3" href="#">
+                    <div class="flex-start gap-1">
+                        <i class="icon icon-login icon-lg"></i>
+                        لوحة التحكم
+                    </div>
+                </a>
+                <a class="dropdown-item py-2 px-3" href="#">
+                    <div class="flex-start gap-1">
+                        <i class="icon icon-logout-2 icon-lg"></i>
+                        تسجيل خروج
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+
+        <i class="icon icon-xl icon-user-2"></i>
+
+
+        <a class="toggle-mobile-menu-button cursor-pointer">
+            <img src="assets/images/bars.svg" class="w-25px h-25px" alt="Menu icon">
+        </a>
+    </div>
+
+
 </div> <!-- mobile-top-bar -->
-
-
 
 <div class="mobile-menu-popup">
 
-    <a class="toggle-mobile-menu-button">
-        <img src="assets/images/close.svg" class="w-15px h-15px" alt="">
-    </a>
-
     <div class="top">
 
-        <div class="menu-wrapper mb-4 mt-5">
+        <div class="flex-between w-100 bg-gray px-3 py-4">
 
+            <div class="start">
+                <a href="homepage.php?dir=rtl">
+                    <img src="assets/images/icons-svg/logo.svg" class="w-50px">
+                </a>
+            </div>
 
+            <div class="end">
+                <a class="toggle-mobile-menu-button">
+                    <img src="assets/images/close.svg" class="w-15px h-15px" alt="">
+                </a>
+            </div>
 
+        </div>
+
+        <div class="menu-wrapper mb-4">
 
             <ul class="links-list">
 
@@ -385,18 +487,56 @@
                     </a>
                 </li>
 
+                <li class="nav-item"> <a href="#" class="nav-link"> تسجيل دخول </a> </li>
+
+                <li class="nav-item"> <a href="#" class="nav-link"> لوحة التحكم </a> </li>
+
+                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+
+                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+
+                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+
+                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+
+                <li class="nav-item"> <a href="#" class="nav-link"> رابط </a> </li>
+
 
             </ul>
 
 
         </div> <!-- menu-wrapper -->
 
-
-
-
-
     </div>
 
+    <!-- <div class="bottom">
 
+        <div class="dropdown show w-100">
+            <a class="btn btn-secondary dropdown-toggle w-100" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                تغيير اللغة
+            </a>
+
+            <div class="dropdown-menu text-start w-100" aria-labelledby="dropdownMenuLink">
+
+                <a class="dropdown-item" href="#">
+                    <span class="flag-icon flag-icon-sa me-1"></span>
+                    عربي
+                </a>
+                <a class="dropdown-item" href="#">
+                    <span class="flag-icon flag-icon-us me-1"></span>
+                    English
+                </a>
+                <a class="dropdown-item" href="#">
+                    <span class="flag-icon flag-icon-fr me-1"></span>
+                    Frensh
+                </a>
+
+            </div>
+
+        </div>
+
+        <a href="#" class="btn btn-outline-light color-black w-100 mt-2"> تسجيل خروج </a>
+
+    </div> -->
 
 </div> <!-- mobile-menu-popup -->

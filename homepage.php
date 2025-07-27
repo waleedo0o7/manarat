@@ -156,6 +156,7 @@
         <div class="container">
 
             <div class="flex-between">
+
                 <div class="start">
                     <div class="d-block mb-5">
                         <h2 class="bold mb-2"> الأفكار المرسلة </h2>
@@ -163,9 +164,11 @@
                     </div>
 
                 </div>
+
                 <div class="end">
                     <a href="#" class="btn btn-primary"> استعرض المزيد </a>
                 </div>
+
             </div>
 
             <div class="swiper-slider-wrapper arrows-sides ">
