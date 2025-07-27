@@ -2,7 +2,6 @@
 
     <div class="container">
 
-
         <div class="row">
             <div class="col-lg-6">
                 <div class="custom-accordion">
@@ -18,20 +17,14 @@
                             </button>
                         </div>
 
-
-
                     </div>
 
                 </div>
 
             </div>
-            <div class="col-lg-6 d-flex justify-content-end">
+            <div class="col-lg-6 d-flex justify-content-end color-gray">
                 <div class="card no-border py-2 d-flex justify-content-center align-items-center flex-row w-fit-content">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-alert-square-rounded ">
-                        <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"></path>
-                        <path d="M12 8v4"></path>
-                        <path d="M12 16h.01"></path>
-                    </svg>
+                    <i class="icon icon-info"></i>
                     <p class="m-0 ms-1">نسخة تجريبية</p>
                 </div>
 
@@ -141,11 +134,11 @@
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-zoom-in"></i>
+                        <i class="icon icon-lg icon-zoom-in" id="increaseFontSizeBtn"></i>
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-zoom-out"></i>
+                        <i class="icon icon-lg icon-zoom-out" id="decreaseFontSizeBtn"></i>
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
@@ -193,7 +186,7 @@
 
             <div class="end flex-center gap-3">
 
-                <a href="#" class="flex-center gap-2 no-hover">
+                <a href="#" class="flex-center gap-2 no-hover" data-toggle="modal" data-target="#search-modal">
                     <i class="icon icon-lg icon-search"></i>
                     <span class="font-medium"> البحث </span>
                 </a>
@@ -208,9 +201,18 @@
                         </div>
                     </button>
                     <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">  عربي   </a>
-                        <a class="dropdown-item" href="#">  English   </a>
-                        <a class="dropdown-item" href="#">  Frensh   </a>
+                        <a class="dropdown-item" href="#">
+                            <span class="flag-icon flag-icon-sa me-1"></span>
+                            عربي
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <span class="flag-icon flag-icon-us me-1"></span>
+                            English
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <span class="flag-icon flag-icon-fr me-1"></span>
+                            Frensh
+                        </a>
                     </div>
                 </div>
 
@@ -241,9 +243,19 @@
 
                         </div>
                     </button>
-                    <div class="dropdown-menu text-start" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#"> لوحة التحكم </a>
-                        <a class="dropdown-item" href="#"> تسجيل خروج </a>
+                    <div class="dropdown-menu p-0 text-start" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item py-2 px-3" href="#">
+                            <div class="flex-start gap-1">
+                                <i class="icon icon-login icon-lg"></i>
+                                لوحة التحكم
+                            </div>
+                        </a>
+                        <a class="dropdown-item py-2 px-3" href="#">
+                            <div class="flex-start gap-1">
+                                <i class="icon icon-logout-2 icon-lg"></i>
+                                تسجيل خروج
+                            </div>
+                        </a>
                     </div>
                 </div>
 

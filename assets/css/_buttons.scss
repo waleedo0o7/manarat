@@ -16,7 +16,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     border-width: 2px;
-    font-size: 16px;
+    font-size: calc(16px * var(--font-size-scale));
 
 
     &.min-w-200 {
@@ -98,7 +98,7 @@
     &.btn-action-lg {
         width: 58px;
         height: 58px;
-        font-size: 22px;
+        font-size: calc(22px * var(--font-size-scale));
     }
 }
 

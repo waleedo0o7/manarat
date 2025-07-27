@@ -1,3 +1,38 @@
+<!-- Modal -->
+<div class="modal fade" id="search-modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-body">
+
+                <div class="modal-search-content">
+
+                    <div class="flex-between w-100 mb-3">
+                        <h4 class="modal-title color-primary bold"> البحث </h4>
+                        <i class="icon icon-remove icon-sm cursor-pointer" data-dismiss="modal" aria-label="Close"></i>
+                    </div>
+
+                    <div class="form-group input-with-start-icon">
+                        <div class="relative">
+                            <input type="text" class="form-control form-control-lg" placeholder="ابحث هنا...">
+                            <i class="icon icon-search start-icon icon-lg"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="assets/vendors/bootstrap/jquery-3.2.1.min.js"></script>
 <script src="assets/vendors/bootstrap/popper.min.js"></script>

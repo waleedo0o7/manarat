@@ -182,4 +182,34 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    applyFontSizeLevel();
+});
+
+
+
+const FONT_SIZE_LEVELS = [0.4,0.8, 0.9, 0.95, 1, 1.1, 1.2, 1.3];
+const DEFAULT_LEVEL = 1;
+let fontSizeLevel = parseInt(localStorage.getItem("fontSizeLevel") || DEFAULT_LEVEL, 10);
+
+function applyFontSizeLevel() {
+    const scale = FONT_SIZE_LEVELS[fontSizeLevel];
+    $("html").css("--font-size-scale", scale + "");
+}
+
+function setFontSizeLevel(level) {
+    fontSizeLevel = Math.max(0, Math.min(FONT_SIZE_LEVELS.length - 1, level));
+    localStorage.setItem("fontSizeLevel", fontSizeLevel);
+    applyFontSizeLevel();
+}
+
+$("#increaseFontSizeBtn").on("click", function () {
+    setFontSizeLevel(fontSizeLevel + 1);
+});
+
+$("#decreaseFontSizeBtn").on("click", function () {
+    setFontSizeLevel(fontSizeLevel - 1);
+});
+
+
 

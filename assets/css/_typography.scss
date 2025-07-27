@@ -16,46 +16,46 @@ h6,
 
 h1,
 .h1 {
-    font-size: 32px;
+    font-size: calc(32px * var(--font-size-scale));
 }
 
 h2,
 .h2 {
-    font-size: 28px;
+    font-size: calc(28px * var(--font-size-scale));
 }
 
 h3,
 .h3 {
-    font-size: 25px;
+    font-size: calc(25px * var(--font-size-scale));
 }
 
 h4,
 .h4 {
-    font-size: 22px;
+    font-size: calc(22px * var(--font-size-scale));
 }
 
 h5,
 .h5 {
-    font-size: 20px;
+    font-size: calc(20px * var(--font-size-scale));
 }
 
 h6,
 .h6 {
-    font-size: 18px;
+    font-size: calc(18px * var(--font-size-scale));
 }
 
 
 .display-3 {
-    font-size: 3rem;
+    font-size: calc(3rem * var(--font-size-scale));
 }
 
 
 .display-4 {
-    font-size: 3.8rem;
+    font-size: calc(3.8rem * var(--font-size-scale));
 }
 
 .display-5 {
-    font-size: 3.1rem;
+    font-size: calc(3.1rem * var(--font-size-scale));
 }
 
 

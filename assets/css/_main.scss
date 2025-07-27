@@ -214,7 +214,7 @@ a {
     .icon {
         margin-inline-end: 10px;
         color: var(--color-primary-light-300);
-        font-size: 22px;
+        font-size: calc(22px * var(--font-size-scale));
     }
 
     .text {
@@ -237,7 +237,7 @@ a {
         align-items: center;
 
         .icon {
-            font-size: 10px;
+            font-size: calc(10px * var(--font-size-scale));
         }
     }
 }
@@ -250,7 +250,7 @@ a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: calc(16px * var(--font-size-scale));
     line-height: 1.2;
 
     &.badge-placed {
@@ -272,20 +272,20 @@ a {
         height: 36px;
         min-width: 36px;
         padding: 4px 8px;
-        font-size: 0.875rem;
+        font-size: calc(14px * var(--font-size-scale));
         border-radius: var(--border-radius-xs);
     }
 
     &.badge-sm {
         height: 40px;
         padding: 6px 12px;
-        font-size: 0.875rem;
+        font-size: calc(14px * var(--font-size-scale));
     }
 
     &.badge-lg {
         height: 56px;
         padding: 16px 32px;
-        font-size: 1.25rem;
+        font-size: calc(20px * var(--font-size-scale));
     }
 
 }
@@ -352,6 +352,7 @@ a {
 .noty_body {
     padding: 12px !important;
     display: flex;
+    font-size: calc(16px * var(--font-size-scale)) !important;
 }
 
 .noty_theme__nest.noty_bar {

@@ -344,13 +344,13 @@
 
                         <div class="social-media-icons-wrapper">
 
-                            <a href="#" class="social-media-icon">
+                            <a href="#" class="social-media-icon no-hover">
                                 <i class="icon icon-lg icon-x-twitter"></i>
                             </a>
-                            <a href="#" class="social-media-icon">
+                            <a href="#" class="social-media-icon no-hover">
                                 <i class="icon icon-lg icon-linkedin"></i>
                             </a>
-                            <a href="#" class="social-media-icon">
+                            <a href="#" class="social-media-icon no-hover">
                                 <i class="icon icon-lg icon-instagram"></i>
                             </a>
 
@@ -363,13 +363,13 @@
 
                         <div class="social-media-icons-wrapper">
 
-                            <a href="#" class="social-media-icon">
+                            <a href="#" class="social-media-icon no-hover">
                                 <i class="icon icon-lg icon-hand"></i>
                             </a>
-                            <a href="#" class="social-media-icon">
+                            <a href="#" class="social-media-icon no-hover">
                                 <i class="icon icon-lg icon-search"></i>
                             </a>
-                            <a href="#" class="social-media-icon">
+                            <a href="#" class="social-media-icon no-hover">
                                 <i class="icon icon-lg icon-eye"></i>
                             </a>
 

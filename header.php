@@ -1,4 +1,4 @@
-<!doctype html> 
+<!doctype html>
 <html dir="<?php if (isset($_GET['dir'])) echo $_GET['dir']; ?>">
 
 <head>
@@ -24,8 +24,11 @@
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
+ 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
 
     <!-- Style CSS -->
     <?php if (isset($_GET['dir']) && $_GET['dir'] == 'rtl') {

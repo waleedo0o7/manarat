@@ -24,16 +24,15 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: calc(16px * var(--font-size-scale));
 }
-
-
 
 
 body {
     font-family: "IBM Plex Sans Arabic", sans-serif;
     font-weight: 400;
     font-style: normal;
-    // font-size: var(--base-font-size);
+    font-size: inherit;
     color: #161616;
     border-radius: 10px;
     background-color: var(--color-gray-light-100);
@@ -59,10 +58,6 @@ body {
     }
 }
 
-body {
-    --font-size-scale: 1;
-    font-size: calc(16px * var(--font-size-scale));
-}
 
 
 p {
@@ -127,7 +122,8 @@ h6,
 
         .page-title {
             text-align: center;
-            font-size: 32px !important;
+            font-size: calc(32px * var(--font-size-scale)) !important;
+
         }
 
     }
@@ -139,7 +135,7 @@ h6,
 
     .page-title {
         position: relative;
-        font-size: 40px;
+        font-size: calc(40px * var(--font-size-scale));
         font-weight: 600;
     }
 
@@ -170,12 +166,12 @@ h6,
 
         [dir="rtl"] & {
             padding-left: unset;
-            padding-right: .5rem;
+            font-size: calc(16px * var(--font-size-scale));
 
             &:before {
                 content: "\e908";
                 float: right;
-                padding-right: unset;
+                font-size: calc(12px * var(--font-size-scale));
                 padding-left: .5rem;
             }
         }
@@ -187,7 +183,6 @@ h6,
 .inner-content {
     padding-top: 20px;
     padding-bottom: 40px;
-    background-color: #F9FAFB;
 
     @media all and (max-width : $breakpoint-xl) {
         padding-top: 30px;
@@ -198,21 +193,21 @@ h6,
 
 .custom-tabs-wrapper {
 
-    .nav-link {
-        height: 40px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+    font-size: calc(22px * var(--font-size-scale));
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
-        &.nav-link-sm {
-            height: 36px;
-        }
+    &.nav-link-sm {
+        height: 36px;
     }
+
 
     &.style1 {
         >.nav-tabs-wrapper {
             >.nav-tabs {
-                display: flex;
+                font-size: calc(18px * var(--font-size-scale));
                 align-items: center;
                 flex-wrap: nowrap;
                 padding: 0;
@@ -221,44 +216,43 @@ h6,
                 >.nav-item {
                     display: flex;
                     justify-content: center;
-                    align-items: center;
+                    font-size: calc(32px * var(--font-size-scale)) !important;
                     width: fit-content;
 
                     &:last-child {
                         .nav-link {
-                            margin-inline-end: 0;
+                            font-size: calc(48px * var(--font-size-scale));
                         }
                     }
 
-                    >.nav-link {
-                        border-width: 1px 0;
-                        border-top-color: transparent;
-                        border-bottom-color: transparent;
-                        color: var(--color-gray-light-500);
-                        padding: 0.5rem 0rem;
-                        margin-inline-end: 20px;
-                        position: relative;
-                        font-weight: var(--font-weight-bold);
+                    font-size: calc(22px * var(--font-size-scale));
+                    border-width: 1px 0;
+                    border-top-color: transparent;
+                    border-bottom-color: transparent;
+                    font-size: calc(38px * var(--font-size-scale));
+                    padding: 0.5rem 0rem;
+                    margin-inline-end: 20px;
+                    position: relative;
+                    font-size: calc(38px * var(--font-size-scale));
+
+                    &:after {
+                        background-color: var(--color-primary-light-300);
+                        position: absolute;
+                        bottom: -2px;
+                        left: 0;
+                        width: 100%;
+                        height: 4px;
+                        border-radius: 500px;
+                    }
+
+                    &.active {
+                        color: #161616;
+                        border-bottom-color: var(--color-gray-light-300);
+                        background: transparent;
+                        overflow: visible;
 
                         &:after {
-                            background-color: var(--color-primary-light-300);
-                            position: absolute;
-                            bottom: -2px;
-                            left: 0;
-                            width: 100%;
-                            height: 4px;
-                            border-radius: 500px;
-                        }
-
-                        &.active {
-                            color: #161616;
-                            border-bottom-color: var(--color-gray-light-300);
-                            background: transparent;
-                            overflow: visible;
-
-                            &:after {
-                                content: "";
-                            }
+                            content: "";
                         }
                     }
                 }
@@ -653,7 +647,7 @@ h6,
         }
 
         i {
-            font-size: 14px;
+            font-size: calc(14px * var(--font-size-scale));
             width: 30px !important;
             height: 30px !important;
             position: relative;
@@ -771,7 +765,7 @@ h6,
     }
 
     &__title {
-        font-size: 18px;
+        font-size: calc(18px * var(--font-size-scale));
         font-weight: 700;
         line-height: 24px;
         margin-bottom: 16px;
@@ -870,7 +864,7 @@ h6,
 
 
     .title {
-        font-size: 48px;
+        font-size: calc(48px * var(--font-size-scale));
         font-weight: 600;
     }
 
@@ -963,7 +957,7 @@ h6,
     }
 
     p.comment {
-        font-size: 22px;
+        font-size: calc(22px * var(--font-size-scale));
     }
 
 }
@@ -992,6 +986,71 @@ h6,
 }
 
 
+.contact-col {
+    @media all and (min-width : $breakpoint-xl) {
+        transform: translate(0, -220px);
+    }
+}
+
+
+
+
+
+.modal .modal-dialog {
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    border-radius: 15px;
+    overflow: hidden;
+    max-height: calc(100vh - 40px);
+}
+
+.modal-body {
+    padding: 20px;
+    max-height: calc(100vh - 70px);
+    overflow: auto;
+}
+
+.modal-content {
+    .modal-header {
+        position: relative;
+        padding: 15px 40px;
+
+        .modal-title {
+            display: block;
+            width: 100%;
+            font-weight: var(--font-weight-bold);
+
+            &.center {
+                text-align: center;
+            }
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #fff;
+            padding: 10px !important;
+            opacity: 0.7;
+            font-size: 22px;
+            height: 100%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            padding: 20px !important;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
 
 
 

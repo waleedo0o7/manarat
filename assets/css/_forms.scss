@@ -17,7 +17,7 @@
             align-items: center;
             margin-inline-start: 18px;
             color: #464747;
-            font-size: 14px;
+            font-size: calc(14px * var(--font-size-scale));
 
             [dir="rtl"] & {
                 left: auto;
@@ -67,7 +67,7 @@
         button {
             height: 65px;
             border-radius: 8px;
-            font-size: 14px;
+            font-size: calc(14px * var(--font-size-scale));
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -117,7 +117,7 @@
         .icon-chevron-down {
             position: relative;
             color: #555 !important;
-            font-size: 12px !important;
+            font-size: calc(12px * var(--font-size-scale)) !important;
             margin-top: 0;
             padding: 0 7px;
         }
@@ -152,6 +152,7 @@
     &::placeholder {
         font-weight: 300;
         color: var(--input-text-color);
+        font-size: var(--base-font-size);
     }
 
     &:active,
@@ -309,7 +310,7 @@ select.form-control {
         position: relative;
         padding: 10px;
         margin-bottom: 0;
-        font-size: 12px;
+        font-size: calc(12px * var(--font-size-scale));
         line-height: 16px;
         width: 100%;
         height: 25px;

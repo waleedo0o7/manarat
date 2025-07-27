@@ -112,7 +112,7 @@
                     <div class="form-group">
                         <label> <span class="color-danger">*</span> إدخال النص الإلزامي </label>
                         <input type="text" class="form-control" placeholder="نص تلميحي">
-                        <span style="font-size: 14px;" class="d-block mt-2"> <i class="icon icon-question-circle"></i> نص مساعده يوضع هنا لتوضيح للعميل ماذا سوف يفعل هذا الحقل تحديدا</span>
+                        <span class="d-block mt-2"> <i class="icon icon-question-circle"></i> نص مساعده يوضع هنا لتوضيح للعميل ماذا سوف يفعل هذا الحقل تحديدا</span>
                     </div> <!-- form-group -->
                 </div>
 
@@ -120,7 +120,7 @@
                     <div class="form-group">
                         <label> <span class="color-danger">*</span> إدخال النص الإلزامي </label>
                         <input type="text" class="form-control" placeholder="نص تلميحي">
-                        <span style="font-size: 14px;" class="d-block mt-2"> <i class="icon icon-question-circle"></i> نص مساعده يوضع هنا لتوضيح للعميل ماذا سوف يفعل هذا الحقل تحديدا</span>
+                        <span class="d-block mt-2"> <i class="icon icon-question-circle"></i> نص مساعده يوضع هنا لتوضيح للعميل ماذا سوف يفعل هذا الحقل تحديدا</span>
                     </div> <!-- form-group -->
                 </div>
 

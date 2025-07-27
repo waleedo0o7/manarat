@@ -5,7 +5,13 @@ $warning: #F1C735;
 $success: #50C879;
 $secondary: #111827;
 
+
+
+
+
 :root {
+
+    --font-size-scale: 1;
 
     --color-primary-light-50: #F3FCF6;
     --color-primary-light-75: #A7E5EE;
@@ -130,9 +136,11 @@ $secondary: #111827;
 
     /////////// END COLORS //////////
 
-    --font-size-lg: 18px;
-    --font-size-md: 14px;
-    --font-size-sm: 12px;
+    --font-size-lg: calc(18px * var(--font-size-scale));
+    --font-size-md: calc(14px * var(--font-size-scale));
+    --font-size-sm: calc(12px * var(--font-size-scale));
+
+
 
     --font-weight-bold: 700;
     --font-weight-medium: 500;
@@ -160,7 +168,7 @@ $secondary: #111827;
     --text-gray: var(--color-gray-light-500);
     --color-gray: var(--color-gray-light-500);
 
-    --base-font-size: 16px;
+    --base-font-size: calc(16px * var(--font-size-scale));
     --base-font-weight: var(--font-weight-regular);
 
     --base-gap: 16px;
