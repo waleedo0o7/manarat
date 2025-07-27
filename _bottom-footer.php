@@ -354,6 +354,16 @@
                                 <i class="icon icon-lg icon-instagram"></i>
                             </a>
 
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-facebook"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-youtube"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-snapchat"></i>
+                            </a>
+
                         </div>
                     </div>
 
