@@ -26,11 +26,14 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
 body {
     font-family: "IBM Plex Sans Arabic", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: var(--base-font-size);
+    // font-size: var(--base-font-size);
     color: #161616;
     border-radius: 10px;
     background-color: var(--color-gray-light-100);
@@ -55,6 +58,12 @@ body {
 
     }
 }
+
+body {
+    --font-size-scale: 1;
+    font-size: calc(16px * var(--font-size-scale));
+}
+
 
 p {
     line-height: 1.4
