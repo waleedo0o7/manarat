@@ -31,7 +31,6 @@
 
             <div class="container">
 
-
                 <div class="custom-accordion">
 
                     <div class="accordion-item">
@@ -93,11 +92,9 @@
 
                 </div>
 
-
             </div>
 
         </section>
-
 
     </div> <!-- inner-content -->
 

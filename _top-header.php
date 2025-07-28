@@ -121,24 +121,28 @@
                 <div class="d-flex gap-3">
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-eye" id="toggleContrastBtn"></i>
+                        <i class="icon icon-lg icon-eye toggleContrastBtn" id="toggleContrastBtn"></i>
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-zoom-in" id="increaseFontSizeBtn"></i>
+                        <i class="icon icon-lg icon-zoom-in increaseFontSizeBtn" id="increaseFontSizeBtn"></i>
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-zoom-out" id="decreaseFontSizeBtn"></i>
+                        <i class="icon icon-lg icon-reset-font-size resetFontSize" id="resetFontSize"></i>
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-microphone" id="speakBtn"></i>
+                        <i class="icon icon-lg icon-zoom-out decreaseFontSizeBtn" id="decreaseFontSizeBtn"></i>
                     </a>
+
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                        <i class="icon icon-lg icon-microphone speakBtn" id="speakBtn"></i>
+                    </a>
+
                 </div>
 
             </div>
-
         </div>
     </div>
 </div> <!-- top-bar-2-wrapper -->
@@ -154,24 +158,31 @@
         </div>
 
         <div class="end">
+
             <div class="d-flex gap-3">
 
                 <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                    <i class="icon icon-lg icon-eye"></i>
+                    <i class="icon icon-lg icon-eye toggleContrastBtn" id="toggleContrastBtn"></i>
                 </a>
 
                 <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                    <i class="icon icon-lg icon-zoom-in" id="increaseFontSizeBtn"></i>
+                    <i class="icon icon-lg icon-zoom-in increaseFontSizeBtn" id="increaseFontSizeBtn"></i>
                 </a>
 
                 <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                    <i class="icon icon-lg icon-zoom-out" id="decreaseFontSizeBtn"></i>
+                    <i class="icon icon-lg icon-reset-font-size resetFontSize" id="resetFontSize"></i>
                 </a>
 
                 <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                    <i class="icon icon-lg icon-microphone"></i>
+                    <i class="icon icon-lg icon-zoom-out decreaseFontSizeBtn" id="decreaseFontSizeBtn"></i>
                 </a>
+
+                <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                    <i class="icon icon-lg icon-microphone speakBtn" id="speakBtn"></i>
+                </a>
+
             </div>
+
         </div>
     </div>
 </div>
@@ -258,7 +269,7 @@
                             </div>
 
                             <div class="center text-start flex-center">
-                                <p class="m-0"> وليد سعيد ابراهيم </p>
+                                <p class="m-0 font-medium"> وليد سعيد ابراهيم </p>
                             </div>
 
                             <div class="end flex-center">
@@ -330,10 +341,8 @@
 
     <div class="end flex-start align-items-center justify-content-center gap-3">
 
-
-
-
         <div class="dropdown">
+
             <button class="reset-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                 <div class="flex-between gap-2">
 
@@ -342,7 +351,7 @@
                     </div>
 
                     <div class="center text-start flex-center">
-                        <p class="m-0"> وليد سعيد ابراهيم </p>
+                        <p class="m-0 font-medium"> وليد سعيد ابراهيم </p>
                     </div>
 
                     <div class="end flex-center">
@@ -351,6 +360,7 @@
 
                 </div>
             </button>
+
             <div class="dropdown-menu p-0 text-start" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item py-2 px-3" href="#">
                     <div class="flex-start gap-1">

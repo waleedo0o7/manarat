@@ -295,12 +295,12 @@
 
 </div>
 
-
 <footer class="footer py-5">
 
     <div class="container">
 
-        <div class="top mb-5">
+
+        <div class="lg-content mb-5">
 
             <div class="row">
 
@@ -393,7 +393,163 @@
                 </div>
 
             </div>
+
         </div>
+
+
+        <div class="sm-content top mb-5">
+
+            <div class="row">
+
+                <div class="col-md-3">
+
+                    <div class="custom-accordion">
+
+                        <div class="accordion-item">
+
+                            <div class="accordion-item-header" id="headingOne">
+                                <button class="accordion-button collapsed" data-toggle="collapse" data-target="#collapse-fotter-1" aria-expanded="true" aria-controls="collapse-fotter-1">
+                                    <p class="m-0 lead font-medium color-white"> ملخص </p>
+                                    <i class="icon icon-chevron-down color-white"></i>
+                                </button>
+                            </div>
+
+                            <div id="collapse-fotter-1" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    <ul class="footer__list list-unstyled p-0">
+                                        <li><a href="#" class="">حول منارات</a></li>
+                                        <li><a href="#" class="">الخصوصية وشروط الاستخدام</a></li>
+                                        <li><a href="#" class="">كيفية استخدام منارات</a></li>
+                                        <li><a href="#" class="">الأخبار والأحداث</a></li>
+                                        <li><a href="#" class="">إحصائيات اتفاقية مستوى الخدمة</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="custom-accordion">
+
+                        <div class="accordion-item">
+
+                            <div class="accordion-item-header" id="headingOne">
+                                <button class="accordion-button collapsed" data-toggle="collapse" data-target="#collapse-fotter-2" aria-expanded="true" aria-controls="collapse-fotter-2">
+                                    <p class="m-0 lead font-medium color-white"> روابط هامة </p>
+                                    <i class="icon icon-chevron-down color-white"></i>
+                                </button>
+                            </div>
+
+                            <div id="collapse-fotter-2" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    <ul class="footer__list list-unstyled p-0">
+                                        <li><a href="#" class="">بوابة الخدمة الوطنية</a></li>
+                                        <li><a href="#" class="">البيانات الحكومية المفتوحة</a></li>
+                                        <li><a href="#" class="">الاستراتيجية الوطنية للبيانات والذكاء الاصطناعي</a></li>
+                                        <li><a href="#" class="">بوابة البيانات المفتوحة</a></li>
+                                        <li><a href="#" class="">بوابة المشاركة الإلكترونية</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="custom-accordion">
+
+                        <div class="accordion-item">
+
+                            <div class="accordion-item-header" id="headingOne">
+                                <button class="accordion-button collapsed" data-toggle="collapse" data-target="#collapse-fotter-3" aria-expanded="true" aria-controls="collapse-fotter-3">
+                                    <p class="m-0 lead font-medium color-white"> الاتصال والدعم </p>
+                                    <i class="icon icon-chevron-down color-white"></i>
+                                </button>
+                            </div>
+
+                            <div id="collapse-fotter-3" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="accordion-item-body">
+                                    <ul class="footer__list list-unstyled p-0">
+                                        <li><a href="#" class="">مركز العملاء</a></li>
+                                        <li><a href="#" class="">تواصل معنا</a></li>
+                                        <li><a href="#" class="">شارك معنا</a></li>
+                                        <li><a href="#" class="">تقديم شكوى</a></li>
+                                        <li><a href="#" class="">الإبلاغ عن الفساد</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="mb-4">
+                        <h5 class="mb-3 mt-4"> تابعنا على </h5>
+                        <div class="social-media-icons-wrapper">
+
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-x-twitter"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-instagram"></i>
+                            </a>
+
+                            <!-- <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-facebook"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-youtube"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-snapchat"></i>
+                            </a> -->
+
+                        </div>
+                    </div>
+
+
+                    <div class="mb-0">
+                        <h5 class="mb-3 mt-4"> أدوات الاتاحة والوصول </h5>
+                        <div class="social-media-icons-wrapper">
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-hand"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-search"></i>
+                            </a>
+                            <a href="#" class="social-media-icon no-hover">
+                                <i class="icon icon-lg icon-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+            <hr class="hr-white" />
+
+        </div>
+
 
         <div class="row">
 
@@ -425,3 +581,5 @@
     </div>
 
 </footer>
+
+<button id="toTop"><i class="icon icon-arrow-up icon-xl"></i></button>

@@ -136,6 +136,12 @@ $('.swiper-custom:not(.swiper-initialized)').each(function (index, element) {
 });
 
 
+
+
+
+
+
+
 function toggle(btn) {
     const submenu = btn.nextElementSibling;
     submenu.classList.toggle('d-none');
@@ -182,11 +188,16 @@ $(document).ready(function () {
 });
 
 
+
+
+
+
+
+
+
 $(document).ready(function () {
     applyFontSizeLevel();
 });
-
-
 
 const FONT_SIZE_LEVELS = [0.8, 0.9, 0.95, 1, 1.1, 1.2, 1.3];
 const DEFAULT_LEVEL = 3;
@@ -203,24 +214,21 @@ function setFontSizeLevel(level) {
     applyFontSizeLevel();
 }
 
-$("#increaseFontSizeBtn").on("click", function () {
+$(".increaseFontSizeBtn").on("click", function () {
     setFontSizeLevel(fontSizeLevel + 1);
 });
 
-$("#decreaseFontSizeBtn").on("click", function () {
+$(".decreaseFontSizeBtn").on("click", function () {
     setFontSizeLevel(fontSizeLevel - 1);
 });
 
-
-
-$("#toggleContrastBtn").on("click", function () {
+$(".toggleContrastBtn").on("click", function () {
     $("body").toggleClass("contrast")
 });
 
-
-
-
-
+$(".resetFontSize").on("click", function () {
+    setFontSizeLevel(DEFAULT_LEVEL);
+});
 
 
 
@@ -263,3 +271,46 @@ function speakText(text) {
     window.speechSynthesis.cancel(); // Stop any current speech
     window.speechSynthesis.speak(msg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 600) {
+            $('#toTop').fadeIn();
+        } else {
+            $('#toTop').fadeOut();
+        }
+    });
+
+    $('#toTop').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 150);
+        return false;
+    });
+});

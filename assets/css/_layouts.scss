@@ -63,13 +63,12 @@
                 &.active {
                     color: #FFF;
                     background-color: var(--color-primary-light-300);
-                    border-radius: var(--border-radius-sm);
 
                     &:before {
                         content: "";
                         width: 80%;
                         height: 6px;
-                        background: #54c08a !important;
+                        background: var(--color-primary-light-200);
                         right: 10%;
                         left: auto;
                         z-index: 1;
