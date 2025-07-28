@@ -1052,39 +1052,19 @@ h6,
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
+#readIcon {
+    position: absolute;
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #1b8354;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 9999;
+}
 
 // .is-it-useful-section {
 //     border-top: 2px solid var(--color-gray-light-200);

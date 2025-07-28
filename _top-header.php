@@ -121,7 +121,7 @@
                 <div class="d-flex gap-3">
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-eye"></i>
+                        <i class="icon icon-lg icon-eye" id="toggleContrastBtn"></i>
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
@@ -133,7 +133,7 @@
                     </a>
 
                     <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-microphone"></i>
+                        <i class="icon icon-lg icon-microphone" id="speakBtn"></i>
                     </a>
                 </div>
 

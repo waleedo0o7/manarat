@@ -30,6 +30,7 @@
 
 
 
+    <div id="readIcon" class="read-icon">🔊</div>
 
 
 
@@ -62,9 +63,6 @@
 <script src="assets/vendors/scroll-magic/ScrollMagic.min.js"></script>
 <script src="assets/vendors/scroll-magic/debug.addIndicators.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
 
 <!-- Custom JS -->

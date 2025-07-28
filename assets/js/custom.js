@@ -188,8 +188,8 @@ $(document).ready(function () {
 
 
 
-const FONT_SIZE_LEVELS = [0.4,0.8, 0.9, 0.95, 1, 1.1, 1.2, 1.3];
-const DEFAULT_LEVEL = 1;
+const FONT_SIZE_LEVELS = [0.8, 0.9, 0.95, 1, 1.1, 1.2, 1.3];
+const DEFAULT_LEVEL = 3;
 let fontSizeLevel = parseInt(localStorage.getItem("fontSizeLevel") || DEFAULT_LEVEL, 10);
 
 function applyFontSizeLevel() {
@@ -213,3 +213,53 @@ $("#decreaseFontSizeBtn").on("click", function () {
 
 
 
+$("#toggleContrastBtn").on("click", function () {
+    $("body").toggleClass("contrast")
+});
+
+
+
+
+
+
+
+
+
+
+
+const speakBtn = document.getElementById("speakBtn");
+const readIcon = document.getElementById("readIcon");
+if (speakBtn && readIcon) {
+    speakBtn.addEventListener("click", () => {
+        speakText("من فضلك حدد النص الذي تريد قراءته");
+    });
+
+    document.addEventListener("mouseup", (e) => {
+        const selection = window.getSelection();
+        const selectedText = selection.toString().trim();
+
+        if (selectedText.length > 0) {
+            const range = selection.getRangeAt(0);
+            const rect = range.getBoundingClientRect();
+
+            readIcon.style.top = `${rect.top + window.scrollY - 50}px`;
+            readIcon.style.left = `${rect.left + window.scrollX}px`;
+            readIcon.style.display = "block";
+
+            readIcon.onclick = () => {
+                speakText(selectedText);
+                readIcon.style.display = "none";
+                selection.removeAllRanges(); // Optional: Remove selection after reading
+            };
+        } else {
+            readIcon.style.display = "none";
+        }
+    });
+}
+
+function speakText(text) {
+    const msg = new SpeechSynthesisUtterance(text);
+    msg.lang = "ar-SA";
+    window.speechSynthesis.cancel(); // Stop any current speech
+    window.speechSynthesis.speak(msg);
+}
