@@ -41,8 +41,23 @@
                             </div>
                         </div> <!-- form-group -->
 
-                        <div class="flex-start mb-4">
+                        <div class="flex-between mb-4">
+
+                            <div class="form-group">
+
+                                <div class="custom-checkbox-wrapper">
+
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="customCheckDisabled2">
+                                        <label class="custom-control-label" for="customCheckDisabled2"> تذكرني </label>
+                                    </div>
+
+                                </div> <!-- custom-checkbox-wrapper -->
+
+                            </div> <!-- form-group -->
+
                             <a href="#" class="color-primary font-medium"> نسيت كلمة المرور؟</a>
+
                         </div>
 
                         <div class="flex-center flex-column">

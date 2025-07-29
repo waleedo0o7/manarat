@@ -349,3 +349,8 @@
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
+
+.custom-accordion .accordion-item {
+    transition: 0s !important;
+}

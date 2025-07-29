@@ -222,13 +222,53 @@ $(".decreaseFontSizeBtn").on("click", function () {
     setFontSizeLevel(fontSizeLevel - 1);
 });
 
-$(".toggleContrastBtn").on("click", function () {
-    $("body").toggleClass("contrast")
-});
-
 $(".resetFontSize").on("click", function () {
     setFontSizeLevel(DEFAULT_LEVEL);
 });
+
+
+
+
+
+$(document).on("click", "#toggleContrastBtn", function () {
+
+    const $html = $("html");
+    const isContrast = $html.toggleClass("contrast").hasClass("contrast");
+    localStorage.setItem("contrastMode", isContrast ? "on" : "off");
+
+    // If contrast mode is enabled, disable dark mode
+    if (isContrast) {
+        $html.removeClass("dark");
+        localStorage.setItem("theme", "light");
+    }
+});
+
+// On page load, restore contrast mode (but check for conflicts)
+if (localStorage.getItem("contrastMode") === "on") {
+    $("html").addClass("contrast").removeClass("dark");
+    localStorage.setItem("theme", "light");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -314,3 +354,12 @@ $(document).ready(function () {
         return false;
     });
 });
+
+
+
+
+
+
+
+
+
