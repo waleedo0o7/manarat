@@ -1,18 +1,56 @@
 <div class="footer-top section-padding pb-0">
 
+
+    <div class="mb-4" role="region" aria-labelledby="contact-section-title">
+
+        <div class="container">
+
+            <div class="card no-border p-4 base-box-shadow">
+
+                <div class="flex-responsive-wrapper gap-3">
+
+                    <div class="start gap-2 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+
+                        <div class="flex-center w-50px h-50px bg-primary-faded-shape rounded-circle">
+                            <i class="icon icon-xxl icon-list-checked color-primary"></i>
+                        </div>
+
+                        <div class="">
+                            <h3 id="contact-section-title" class="color-primary bold mb-1"> البلاغات والشكاوى </h3>
+                            <p class="m-0"> لديكم أي بلاغ أو شكوى؟ يمكنكم التواصل معنا بسهولة عبر نموذج الاتصال المخصص. </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="end">
+                        <a href="https://manarat.sca.sa/contact-us" wire:navigate="" class="btn btn-primary" role="button" aria-label="الانتقال إلى صفحة تواصل معنا"> تواصل معنا </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
     <div class="comments-section mb-4">
 
         <div class="container mb-3">
 
             <div class="card no-border p-4 mb-3 base-box-shadow">
 
-                <div class="flex-between">
-                    <div class="flex-start gap-4">
-                        <p class="m-0 color-primary bold lead"> الاقتراحات والتعليقات </p>
+                <div class="flex-responsive-wrapper">
+
+                    <div class="start">
+                        <p class="mb-1 color-primary bold lead"> الاقتراحات والتعليقات </p>
                         <p class="m-0"> لأي استفسار أو ملاحظات حول الخدمات أو الصفحة الحالية، يرجى ملء المعلومات المطلوبة. </p>
                     </div>
 
-                    <div class="flex-end">
+                    <div class="end">
                         <a class="btn btn-primary show-comments"> اضف تعليق </a>
                     </div>
                 </div>

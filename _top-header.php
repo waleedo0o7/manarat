@@ -187,7 +187,7 @@
     </div>
 </div>
 
-<div class="header-wrapper">
+<div class="header-wrapper" id="top-bar-wrapper">
 
     <div class="container">
 

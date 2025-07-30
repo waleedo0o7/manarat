@@ -804,12 +804,15 @@ h6,
         padding-bottom: 15px;
     }
 
-
     .logos-wrapper {
         height: 100%;
         justify-content: end;
         align-items: center;
         display: flex;
+    }
+
+    a {
+        color: #FFF;
     }
 
 
@@ -1125,6 +1128,23 @@ footer.footer {
 
 hr.hr-white {
     border-top: 1px solid rgb(255 255 255);
+}
+
+
+
+
+
+.flex-responsive-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media all and (max-width : $breakpoint-lg) {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
 }
 
 

@@ -18,7 +18,7 @@
 //////////////////////////////////////////////////////////////////////
 
 a {
-    color: inherit;
+    color: #161616;
     text-decoration: none;
 
     &:hover {
@@ -32,6 +32,11 @@ a {
             text-decoration: none;
         }
     }
+}
+
+
+button {
+    color: #161616;
 }
 
 .container {

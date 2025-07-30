@@ -100,7 +100,7 @@
 
         <div class="container">
 
-            <div class="flex-between mb-5">
+            <div class="flex-responsive-wrapper mb-5">
 
                 <div class="start">
                     <h2 class="bold mb-2"> آلية التقديم </h2>
@@ -155,11 +155,11 @@
 
         <div class="container">
 
-            <div class="flex-between">
+            <div class="flex-responsive-wrapper">
 
                 <div class="start">
-                    <div class="d-block mb-5">
-                        <h2 class="bold mb-2"> الأفكار المرسلة </h2>
+                    <div class="d-block">
+                        <h2 class="bold mb-1"> الأفكار المرسلة </h2>
                         <p class="lead"> معايير ومقاييس الافكار الإبداعية التي نستقبلها التي تدعم الإبتكار او تعزز كفاءة التشغيل </p>
                     </div>
 
@@ -235,10 +235,10 @@
 
         <div class="container">
 
-            <div class="flex-between mb-5">
+            <div class="flex-responsive-wrapper mb-5">
 
                 <div class="start">
-                    <h2 class="bold mb-2"> الأسئلة الشائعة </h2>
+                    <h2 class="bold mb-1"> الأسئلة الشائعة </h2>
                     <p class="lead"> معايير ومقاييس الافكار الإبداعية التي نستقبلها التي تدعم الإبتكار او تعزز كفاءة التشغيل </p>
                 </div>
 
