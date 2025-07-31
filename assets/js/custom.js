@@ -364,4 +364,28 @@ $(document).ready(function () {
 
 
 
- 
+$(document).on('click', '.icon-copy-2', function () {
+    var text = $(this).closest('.contact-card').find('.text-to-copy').html().trim();
+
+    navigator.clipboard.writeText(text).then(function () {
+        const $msg = $('<p>content copied</p>').css({
+            position: 'fixed',
+            top: '20px',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            background: '#222',
+            color: '#fff',
+            padding: '8px 16px',
+            borderRadius: '4px',
+            zIndex: 9999,
+            margin: 0
+        });
+        $('body').append($msg);
+        setTimeout(function () {
+            $msg.fadeOut(400, function () {
+                $(this).remove();
+            });
+        }, 3000);
+    });
+
+});

@@ -128,11 +128,11 @@
                                 <div class="start">
                                     <i class="icon icon-phone color-primary icon-lg"></i>
                                 </div>
-                                <div class="end">
+                                <div class="end contact-card">
                                     <p class="font-medium m-0"> رقم الجوال </p>
                                     <div class="flax-start color-primary">
-                                        <a href="tel:9200343222" class="d-inline-flex">9200343222</a>
-                                        <i class="icon icon-copy-2"></i>
+                                        <a href="tel:9200343222" class="d-inline-flex text-to-copy">9200343222</a>
+                                        <i class="icon icon-copy-2 cursor-pointer"></i>
                                     </div>
                                 </div>
                             </div>

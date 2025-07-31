@@ -183,6 +183,8 @@ h6,
 .inner-content {
     padding-top: 20px;
     padding-bottom: 40px;
+    z-index: 3;
+    position: relative;
 
     @media all and (max-width : $breakpoint-xl) {
         padding-top: 30px;
@@ -883,17 +885,17 @@ h6,
 
 }
 
-.ideas-wrapper {
-    .row.custom-row {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: stretch;
-        align-content: stretch;
-        row-gap: 20px;
 
-    }
+.flex-row-stretched {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    row-gap: 20px;
+
 }
+
 
 
 
