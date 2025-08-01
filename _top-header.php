@@ -24,7 +24,33 @@
 
             </div>
 
-            <div class="end col-lg-6 d-flex justify-content-end color-gray">
+            <div class="end col-lg-6 flex-center justify-content-end color-gray gap-3">
+
+
+                <div class="d-flex gap-3">
+
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                        <i class="icon icon-lg icon-eye toggleContrastBtn" id="toggleContrastBtn"></i>
+                    </a>
+
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                        <i class="icon icon-lg icon-zoom-in increaseFontSizeBtn" id="increaseFontSizeBtn"></i>
+                    </a>
+
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                        <i class="icon icon-lg icon-reset-font-size resetFontSize" id="resetFontSize"></i>
+                    </a>
+
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                        <i class="icon icon-lg icon-zoom-out decreaseFontSizeBtn" id="decreaseFontSizeBtn"></i>
+                    </a>
+
+                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
+                        <i class="icon icon-lg icon-sound-bordered-2 speakBtn" id="speakBtn"></i>
+                    </a>
+
+                </div>
+
                 <div class="card no-border py-2 d-flex justify-content-center align-items-center flex-row w-fit-content">
                     <i class="icon icon-info"></i>
                     <p class="m-0 ms-1">نسخة تجريبية</p>
@@ -90,62 +116,7 @@
 
 </div> <!-- top-bar-1-wrapper -->
 
-<div class="top-bar-2-wrapper bg-gray py-2">
-    <div class="container">
-        <div class="top-bar-2 row flex-between align-items-center">
 
-            <div class="start col-lg-6 d-flex justify-content-center justify-lg-content-start gap-3 mb-3 mb-lg-0">
-                <span class="d-flex align-items-center gap-2">
-                    <i class="icon icon-xl icon-cloud"></i>
-                    غائم
-                </span>
-
-                <span class="d-flex align-items-center gap-2">
-                    <i class="icon icon-lg icon-calendar"></i>
-                    3-8-2025
-                </span>
-
-                <span class="d-flex align-items-center gap-2">
-                    <i class="icon icon-lg icon-time"></i>
-                    2:30 مساءً
-                </span>
-
-                <span class="d-flex align-items-center gap-2">
-                    <i class="icon icon-lg icon-location"></i>
-                    الرياض
-                </span>
-            </div>
-
-            <div class="end col-lg-6 d-flex justify-content-end gap-4">
-
-                <div class="d-flex gap-3">
-
-                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-eye toggleContrastBtn" id="toggleContrastBtn"></i>
-                    </a>
-
-                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-zoom-in increaseFontSizeBtn" id="increaseFontSizeBtn"></i>
-                    </a>
-
-                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-reset-font-size resetFontSize" id="resetFontSize"></i>
-                    </a>
-
-                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-zoom-out decreaseFontSizeBtn" id="decreaseFontSizeBtn"></i>
-                    </a>
-
-                    <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                        <i class="icon icon-lg icon-microphone speakBtn" id="speakBtn"></i>
-                    </a>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div> <!-- top-bar-2-wrapper -->
 
 <!-- this bar show only in small screens -->
 <div class="top-bar-3-wrapper bg-gray p-2">
@@ -178,7 +149,7 @@
                 </a>
 
                 <a href="#" class="w-20px h-20px d-inline-flex no-hover">
-                    <i class="icon icon-lg icon-microphone speakBtn" id="speakBtn"></i>
+                    <i class="icon icon-lg icon-sound-bordered-2 speakBtn" id="speakBtn"></i>
                 </a>
 
             </div>

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?2302');
-  src:  url('fonts/icomoon.eot?2302#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2302') format('truetype'),
-    url('fonts/icomoon.woff?2302') format('woff'),
-    url('fonts/icomoon.svg?2302#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?xggc8l');
+  src:  url('fonts/icomoon.eot?xggc8l#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xggc8l') format('truetype'),
+    url('fonts/icomoon.woff?xggc8l') format('woff'),
+    url('fonts/icomoon.svg?xggc8l#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,30 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-sound-bordered-1:before {
+  content: "\e943";
+}
+.icon-sound-bordered-2:before {
+  content: "\e944";
+}
+.icon-sound-bordered-3:before {
+  content: "\e945";
+}
+.icon-sound-muted-bordered:before {
+  content: "\e946";
+}
+.icon-sound-muted-solid:before {
+  content: "\e947";
+}
+.icon-sound-solid-1:before {
+  content: "\e948";
+}
+.icon-sound-solid-2:before {
+  content: "\e949";
+}
+.icon-sound-solid-3:before {
+  content: "\e94a";
+}
 .icon-arrow-bottom1:before {
   content: "\e93e";
 }
