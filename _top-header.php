@@ -171,11 +171,11 @@
                 </a>
 
                 <ul class="nav-links reset-list flex-start">
-                    <li class="nav-item"><a class="nav-link active" href="homepage.php?dir=rtl"> الرئيسية </a></li>
+                    <li class="nav-item"><a class="nav-link" href="homepage.php?dir=rtl"> الرئيسية </a></li>
                     <li class="nav-item"><a class="nav-link" href="#"> عن الهيئة </a></li>
 
                     <li class="nav-item dropdown" onmouseover="this.classList.add('show'); this.querySelector('.dropdown-menu').classList.add('show');" onmouseout="this.classList.remove('show'); this.querySelector('.dropdown-menu').classList.remove('show');">
-                        <a class="nav-link dropdown-toggle" href="our-work.php?dir=rtl" id="ourWorkDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle active" href="our-work.php?dir=rtl" id="ourWorkDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             عضوية الهيئة
                         </a>
                         <div class="dropdown-menu" aria-labelledby="ourWorkDropdown">
