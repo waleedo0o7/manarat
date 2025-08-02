@@ -400,7 +400,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label> Select2 single </label>
-                                    <select class="select2 w-100">
+                                    <select class="form-control select2 w-100">
                                         <option value="AL">Brazil</option>
                                         <option value="WY">Canada</option>
                                         <option value="CA">France</option>
