@@ -145,8 +145,9 @@
                 .dropdown-item:hover,
                 .dropdown-item:focus {
 
-                    background-color: var(--color-gray-light-200);
+                    background-color: var(--color-primary-light-300);
                     text-decoration: none;
+                    color: #FFF;
                 }
 
 
@@ -169,7 +170,7 @@
 
 }
 
- 
+
 
 .mobile-top-bar {
     display: none;

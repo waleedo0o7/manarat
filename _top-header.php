@@ -180,7 +180,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="ourWorkDropdown">
                             <a class="dropdown-item" href="our-work.php?dir=rtl"> عضوية ذهبية </a>
-                            <a class="dropdown-item" href="our-work.php?dir=rtl"> عضوية فضية </a>
+                            <a class="dropdown-item active" href="our-work.php?dir=rtl"> عضوية فضية </a>
                             <a class="dropdown-item" href="our-work.php?dir=rtl"> عضوية خشبية </a>
                         </div>
                     </li>
