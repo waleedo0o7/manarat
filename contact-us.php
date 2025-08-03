@@ -28,7 +28,6 @@
 
     <div class="inner-content p-0">
 
-
         <div class="section-padding">
 
             <div class="container">
@@ -251,8 +250,6 @@
                     </div>
 
                 </div>
-
-
 
             </div>
 

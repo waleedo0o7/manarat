@@ -25,14 +25,7 @@
     </div>
 </div>
 
-
-
-
-
-
-    <div id="readIcon" class="read-icon">🔊</div>
-
-
+<div id="readIcon" class="read-icon">🔊</div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="assets/vendors/bootstrap/jquery-3.2.1.min.js"></script>
