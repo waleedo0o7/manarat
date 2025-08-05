@@ -52,18 +52,12 @@
 
             <div class="pagination-and-buttons-wrapper">
 
-                <div class="swiper-button-prev" id="intro-button-prev">
-                    <i class="icon icon-arrow-circle-left"></i>
-                </div>
-
+ 
                 <div class="pagination-wrapper">
                     <div class="swiper-pagination" id="intro-pagination"></div>
                 </div>
 
-                <div class="swiper-button-next" id="intro-button-next">
-                    <i class="icon icon-arrow-circle-right"></i>
-                </div>
-
+ 
             </div>
 
         </div> <!-- swiper-slider-wrapper -->

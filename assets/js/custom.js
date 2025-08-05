@@ -417,7 +417,9 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-    $('.accordion-button').each(function () {
-        $(this).attr("data-toggle" , "none")
-    });
+    if (window.innerWidth > breakpointXl) {
+        $('.footer .accordion-button').each(function () {
+            $(this).attr("data-toggle", "none");
+        });
+    }
 });
