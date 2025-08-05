@@ -389,3 +389,35 @@ $(document).on('click', '.icon-copy-2', function () {
     });
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function () {
+
+
+});
+
+
+
+
+
+$(document).ready(function () {
+    $('.accordion-button').each(function () {
+        $(this).attr("data-toggle" , "none")
+    });
+});

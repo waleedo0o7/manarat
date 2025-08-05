@@ -116,8 +116,6 @@
 
 </div> <!-- top-bar-1-wrapper -->
 
-
-
 <!-- this bar show only in small screens -->
 <div class="top-bar-3-wrapper bg-gray p-2">
     <div class="flex-between">
@@ -357,7 +355,6 @@
             <img src="assets/images/bars.svg" class="w-25px h-25px" alt="Menu icon">
         </a>
     </div>
-
 
 </div> <!-- mobile-top-bar -->
 

@@ -3,26 +3,72 @@
 
 <div class="page home">
 
-    <section class="home-intro-wrapper"
+    <section class="home-intro-slider-wrapper">
 
-        style="background-image: linear-gradient(0deg, rgba(9, 42, 30, 0.8) 0%, rgba(9, 42, 30, 0.8) 100%), url(assets/images/hero-section.png);">
+        <div class="swiper-slider-wrapper">
 
-        <div class="container">
+            <div class="swiper-container swiper-custom"
+                data-per-view="1"
+                data-per-view-md="1"
+                data-per-view-sm="1"
+                data-per-view-xs="1"
+                data-space-between="0"
+                data-next-button="intro-button-next" data-prev-button="intro-button-prev" data-pagination="intro-pagination">
 
-            <div class="intro-home-content">
+                <div class="swiper-wrapper">
 
-                <h1 class="title mb-4"> ساهم في تطوير قطاع المقاولات </h1>
+                    <?php foreach (range(0, 4) as $inner_i) { ?>
 
-                <p class="text h5 mb-4"> في الهيئة السعودية للمقاولين، نؤمن بأن الإبداع يبدأ بفكرة، وأن التغيير والتطوير ينبعان من مشاركة الجميع. إذا كانت لديك فكرة مبتكرة تسهم في تحسين بيئة العمل في قطاع المقاولات، أو تدعم الابتكار، أو تعزز الكفاءة التشغيلية فنحن نرحب بها</p>
+                        <div class="swiper-slide">
 
-                <a href="#" class="btn btn-primary"> قدم فكرتك الآن </a>
+                            <div class="intro-slide-wrapper"
 
+                                style="background-image: linear-gradient(0deg, rgba(9, 42, 30, 0.8) 0%, rgba(9, 42, 30, 0.8) 100%),
+                                   url(assets/images/hero-section.png);">
+
+                                <div class="container">
+
+                                    <div class="intro-home-content">
+
+                                        <h1 class="title mb-4"> ساهم في تطوير قطاع المقاولات </h1>
+
+                                        <p class="text h5 mb-4"> في الهيئة السعودية للمقاولين، نؤمن بأن الإبداع يبدأ بفكرة، وأن التغيير والتطوير ينبعان من مشاركة الجميع. إذا كانت لديك فكرة مبتكرة تسهم في تحسين بيئة العمل في قطاع المقاولات، أو تدعم الابتكار، أو تعزز الكفاءة التشغيلية فنحن نرحب بها</p>
+
+                                        <a href="#" class="btn btn-primary"> قدم فكرتك الآن </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    <?php } ?>
+
+                </div>
 
             </div>
 
-        </div>
+            <div class="pagination-and-buttons-wrapper">
 
-    </section>
+                <div class="swiper-button-prev" id="intro-button-prev">
+                    <i class="icon icon-arrow-circle-left"></i>
+                </div>
+
+                <div class="pagination-wrapper">
+                    <div class="swiper-pagination" id="intro-pagination"></div>
+                </div>
+
+                <div class="swiper-button-next" id="intro-button-next">
+                    <i class="icon icon-arrow-circle-right"></i>
+                </div>
+
+            </div>
+
+        </div> <!-- swiper-slider-wrapper -->
+
+    </section><!-- home-intro-slider-wrapper -->
 
     <section class="ideas-wrapper section-padding">
 
@@ -33,82 +79,7 @@
                 <p class="lead"> معايير ومقاييس الافكار الإبداعية التي نستقبلها التي تدعم الإبتكار او تعزز كفاءة التشغيل </p>
             </div>
 
-            <div class="swiper-slider-wrapper arrows-sides pagination-bottom">
-
-                <div class="swiper-container swiper-custom"
-                    data-per-view="3"
-                    data-per-view-md="3"
-                    data-per-view-sm="1"
-                    data-per-view-xs="1"
-                    data-space-between="40"
-                    data-next-button="received-ideas-button-next" data-prev-button="received-ideas-button-prev" data-pagination="received-ideas-pagination">
-
-                    <div class="swiper-wrapper">
-
-                        <?php foreach (range(0, 8) as $inner_i) { ?>
-
-                            <div class="swiper-slide">
-
-                                <div class="card h-100">
-                                    <div class="flex-center w-50px h-50px bg-primary-faded-shape mb-2">
-                                        <i class="icon icon-lg icon-settings color-primary"></i>
-                                    </div>
-                                    <h5 class="bold mb-2"> التحسينات</h5>
-                                    <p class="lead color-gray m-0 show-lines-2 h-50px">
-
-                                        <?php
-
-                                        if ($inner_i == 0) {
-                                            echo ' عنوان علي سطر واحد واحد واحد واحد  ';
-                                        } elseif ($i == 1) {
-                                            echo ' عنوان علي سطرين اتنين صة للمقاولين لتوثيق مراحل المشاريع باستخدام ';
-                                        } else {
-                                            echo ' عنوان علي ثلاثه سطور او أكثر عادي فكرة لإنشاء منصة إلكترونية مخصصة للمقاولين لتوثيق مراحل المشاريع باستخدام الصور مراحل المشاريع باستخدام الصور مراحل المشاريع باستخدام الصور';
-                                        }
-
-
-                                        ?>
-
-
-                                    </p>
-                                </div>
-
-                            </div>
-
-                        <?php } ?>
-
-                    </div>
-
-                </div>
-
-                <div class="swiper-button-prev" id="received-ideas-button-prev">
-                    <i class="icon icon-arrow-circle-left"></i>
-                </div>
-
-                <div class="swiper-button-next" id="received-ideas-button-next">
-                    <i class="icon icon-arrow-circle-right"></i>
-                </div>
-
-                <div class="pagination-wrapper">
-                    <div class="swiper-pagination" id="received-ideas-pagination"></div>
-                </div>
-
-            </div> <!-- swiper-slider-wrapper -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="row mt-5 flex-row-stretched d-none">
+            <div class="row mt-5 flex-row-stretched">
 
                 <div class="col-lg-4">
                     <div class="card h-100">
@@ -165,8 +136,6 @@
                 </div>
 
             </div> <!-- row -->
-
-
 
         </div> <!-- container -->
 
@@ -388,8 +357,6 @@
         </div>
 
     </section>
-
-
 
 </div> <!-- page -->
 

@@ -338,7 +338,7 @@
     <div class="container">
 
 
-        <div class="lg-content mb-5">
+        <div class="lg-content mb-5 d-none">
 
             <div class="row">
 
@@ -435,11 +435,11 @@
         </div>
 
 
-        <div class="sm-content top mb-5">
+        <div class="top mb-5">
 
             <div class="row">
 
-                <div class="col-md-3">
+                <div class="col-lg-3">
 
                     <div class="custom-accordion">
 
@@ -470,7 +470,7 @@
 
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3">
 
                     <div class="custom-accordion">
 
@@ -501,7 +501,7 @@
 
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3">
 
                     <div class="custom-accordion">
 
@@ -532,7 +532,7 @@
 
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-lg-3">
 
                     <div class="mb-4">
                         <h5 class="mb-3 mt-4"> تابعنا على </h5>
@@ -561,7 +561,6 @@
                         </div>
                     </div>
 
-
                     <div class="mb-0">
                         <h5 class="mb-3 mt-4"> أدوات الاتاحة والوصول </h5>
                         <div class="social-media-icons-wrapper">
@@ -576,9 +575,6 @@
                             </a>
                         </div>
                     </div>
-
-
-
 
                 </div>
 
