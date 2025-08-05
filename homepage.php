@@ -52,12 +52,12 @@
 
             <div class="pagination-and-buttons-wrapper">
 
- 
+
                 <div class="pagination-wrapper">
                     <div class="swiper-pagination" id="intro-pagination"></div>
                 </div>
 
- 
+
             </div>
 
         </div> <!-- swiper-slider-wrapper -->
@@ -226,25 +226,44 @@
 
                             <div class="swiper-slide p-1">
 
-                                <div class="card text-start no-border base-box-shadow flex-start justify-content-start align-items-start p-4">
+                                <div class="card text-start no-border base-box-shadow flex-start justify-content-between align-items-start p-4">
 
-                                    <h6 class="font-medium mb-3"> فكرة لإنشاء منصة إلكترونية مخصصة للمقاولين لتوثيق مراحل المشاريع باستخدام الصور والتقارير الزمنية. </h6>
+                                    <div class="start">
+                                        <h6 class="font-medium show-lines-3 mb-3">
 
-                                    <div class="w-100 flex-start bg-primary-faded p-2 base-border-radius mb-2 gap-2">
-                                        <i class="icon icon-lg icon-user color-primary"></i>
-                                        <span> محمد العتيبي </span>
+                                            <?php
+                                            if ($inner_i  ==  0) {
+                                                echo '   عنوان علي سطر واحد  ';
+                                            } elseif ($i  ==  1) {
+                                                echo ' عنوان علي سطرين اتنين صة للمقاولين لتوثيق مراحل المشاريع باستخدام ';
+                                            } else {
+                                                echo ' عنوان علي ثلاثه سطور او أكثر عادي فكرة لإنشاء منصة إلكترونية مخصصة للمقاولين لتوثيق مراحل المشاريع باستخدام الصور مراحل المشاريع باستخدام الصور مراحل المشاريع باستخدام الصور';
+                                            }
+
+                                            ?>
+                                        </h6>
+
+                                        <div class="w-100 flex-start bg-primary-faded p-2 base-border-radius mb-2 gap-2">
+                                            <i class="icon icon-lg icon-user color-primary"></i>
+                                            <span> محمد العتيبي </span>
+                                        </div>
+
+                                        <div class="flex-start mb-3">
+                                            <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مبادرة توعية </span>
+                                            <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> حل تقني </span>
+                                            <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مقترح تطوير </span>
+                                        </div>
+                                    </div>
+                                    <div class="end">
+                                        <a href="#" class="btn btn-light flex-center gap-1">
+                                            <span> اطلع على التفاصيل </span>
+                                            <i class="icon icon-lg icon-arrow-right"></i>
+                                        </a>
                                     </div>
 
-                                    <div class="flex-start mb-3">
-                                        <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مبادرة توعية </span>
-                                        <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> حل تقني </span>
-                                        <span class="py-1 px-2 base-border-radius me-2 base-border small bold"> مقترح تطوير </span>
-                                    </div>
 
-                                    <a href="#" class="btn btn-light flex-center gap-1">
-                                        <span> اطلع على التفاصيل </span>
-                                        <i class="icon icon-lg icon-arrow-right"></i>
-                                    </a>
+
+
 
                                 </div> <!-- card -->
 

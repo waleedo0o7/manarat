@@ -969,6 +969,16 @@ h6,
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+
+    .swiper-slider-wrapper {
+        .swiper-wrapper {
+            .swiper-slide {
+                .card {
+                    min-height: 270px;
+                }
+            }
+        }
+    }
 }
 
 
