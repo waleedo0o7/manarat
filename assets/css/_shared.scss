@@ -822,9 +822,13 @@ h6,
             width: 35px;
             height: 35px;
 
+            &:hover {
+                background-color: var(--color-primary-light-300);
+                text-decoration: none;
+            }
+
             i {
                 font-size: 18px;
-
             }
         }
     }
@@ -1214,7 +1218,7 @@ footer.footer {
 
         .custom-accordion {
 
-            .accordion-item { 
+            .accordion-item {
 
                 .accordion-button {
                     cursor: text;
@@ -1403,6 +1407,21 @@ hr.hr-white {
 }
 
 
+
+
+
+
+.idea-card {
+    .wishlist-wrapper {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+
+        .icon {
+            font-size: 18px;
+        }
+    }
+}
 
 
 

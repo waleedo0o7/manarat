@@ -52,9 +52,63 @@
         .nav-item {
 
 
-            // &.dropdown.show {
-            //     background-color: var(--color-gray-light-200);
-            // }
+            &.dropdown {
+
+                &.show {
+
+                    .nav-link:not(.active) {
+                        background-color: var(--color-gray-light-200);
+                        text-decoration: none !important;
+
+                        &:before {
+                            content: "";
+                            width: 80%;
+                            height: 6px;
+                            background: var(--color-gray-light-300) !important;
+                            right: 10%;
+                            left: auto;
+                            z-index: 1;
+                            border-radius: 25px;
+                            position: absolute;
+                            bottom: 0;
+                            right: 10%;
+                        }
+
+
+                    }
+
+                    .nav-link {
+
+                        &.dropdown-toggle::after {
+                            scale: -1;
+                        }
+
+                    }
+                }
+
+                .nav-link {
+                    &.dropdown-toggle::after {
+                        all: unset;
+                        display: block;
+                        content: "\e90a";
+                        display: inline-block;
+                        font-family: 'icomoon' !important;
+                        speak: never;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 1;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        font-size: 12px;
+                        margin-inline-start: 5px;
+                        transition: all 0.2s ease-in-out;
+                    }
+
+
+                }
+            }
 
             .nav-link {
                 font-size: calc(16px * var(--font-size-scale));
@@ -103,32 +157,6 @@
                     }
 
 
-                }
-
-                &:hover {
-
-                    &.dropdown-toggle::after {
-                        scale: -1;
-                    }
-                }
-
-                &.dropdown-toggle::after {
-                    all: unset;
-                    display: block;
-                    content: "\e90a";
-                    display: inline-block;
-                    font-family: 'icomoon' !important;
-                    speak: never;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-variant: normal;
-                    text-transform: none;
-                    line-height: 1;
-                    -webkit-font-smoothing: antialiased;
-                    -moz-osx-font-smoothing: grayscale;
-                    font-size: 12px;
-                    margin-inline-start: 5px;
-                    transition: all 0.2s ease-in-out;
                 }
 
             }

@@ -439,24 +439,24 @@
                     <div class="mb-4">
                         <h5 class="footer-card-title"> تابعنا على </h5>
                         <div class="social-media-icons-wrapper">
-
-                            <a href="#" class="social-media-icon no-hover">
+ 
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-x-twitter"></i>
                             </a>
-                            <a href="#" class="social-media-icon no-hover">
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-linkedin"></i>
                             </a>
-                            <a href="#" class="social-media-icon no-hover">
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-instagram"></i>
                             </a>
 
-                            <!-- <a href="#" class="social-media-icon no-hover">
+                            <!-- <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-facebook"></i>
                             </a>
-                            <a href="#" class="social-media-icon no-hover">
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-youtube"></i>
                             </a>
-                            <a href="#" class="social-media-icon no-hover">
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-snapchat"></i>
                             </a> -->
 
@@ -466,13 +466,13 @@
                     <div class="mb-0">
                         <h5 class="footer-card-title"> أدوات الاتاحة والوصول </h5>
                         <div class="social-media-icons-wrapper">
-                            <a href="#" class="social-media-icon no-hover">
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-hand"></i>
                             </a>
-                            <a href="#" class="social-media-icon no-hover">
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-search"></i>
                             </a>
-                            <a href="#" class="social-media-icon no-hover">
+                            <a href="#" class="social-media-icon">
                                 <i class="icon icon-lg icon-eye"></i>
                             </a>
                         </div>

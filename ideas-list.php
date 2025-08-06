@@ -80,7 +80,13 @@
 
                     <div class="col-lg-4">
 
-                        <div class="card text-start no-border base-box-shadow flex-start justify-content-between align-items-start p-4 h-100">
+                        <div class="idea-card card text-start no-border base-box-shadow flex-start justify-content-between align-items-start p-4 h-100">
+
+                            <div class="wishlist-wrapper">
+                                <a href="#" class="no-hover">
+                                    <i class="icon icon-heart-plus"></i>
+                                </a>
+                            </div>
 
                             <div class="start w-100">
 
