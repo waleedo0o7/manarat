@@ -52,9 +52,9 @@
         .nav-item {
 
 
-            &.dropdown.show {
-                background-color: var(--color-gray-light-200);
-            }
+            // &.dropdown.show {
+            //     background-color: var(--color-gray-light-200);
+            // }
 
             .nav-link {
                 font-size: calc(16px * var(--font-size-scale));
@@ -105,10 +105,17 @@
 
                 }
 
+                &:hover {
+
+                    &.dropdown-toggle::after {
+                        scale: -1;
+                    }
+                }
+
                 &.dropdown-toggle::after {
                     all: unset;
                     display: block;
-                    content: "\e907";
+                    content: "\e90a";
                     display: inline-block;
                     font-family: 'icomoon' !important;
                     speak: never;
@@ -121,6 +128,7 @@
                     -moz-osx-font-smoothing: grayscale;
                     font-size: 12px;
                     margin-inline-start: 5px;
+                    transition: all 0.2s ease-in-out;
                 }
 
             }
@@ -131,7 +139,7 @@
                 text-align: start;
                 list-style: none;
                 border: none;
-                border-radius: 0 0 15px 15px;
+                border-radius: 10px;
                 overflow: hidden;
                 padding: 0;
 
@@ -142,7 +150,7 @@
 
                 .dropdown-item {
                     font-weight: 500;
-                    padding: 7px 14px;
+                    padding: 8px 17px;
                 }
 
                 .dropdown-item.active,

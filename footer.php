@@ -1,6 +1,6 @@
 <!-- Modal -->
 <div class="modal fade" id="search-modal" tabindex="-1">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-md">
         <div class="modal-content">
 
             <div class="modal-body">
@@ -12,17 +12,66 @@
                         <i class="icon icon-remove icon-sm cursor-pointer" data-dismiss="modal" aria-label="Close"></i>
                     </div>
 
-                    <div class="form-group input-with-start-icon">
-                        <div class="relative">
-                            <input type="text" class="form-control form-control-lg" placeholder="ابحث هنا...">
-                            <i class="icon icon-search start-icon icon-lg"></i>
+                    <div class="text-center mb-3">
+                        <h6 class="font-medium mb-2"> مرحباً بك في صفحة البحث </h6>
+                        <h2 class="color-primary font-medium"> ستجد كل ما تبحث عنه </h2>
+                    </div>
+
+                    <div class="flex-start gap-2 mb-3">
+
+                        <div class="form-group m-0 input-with-start-icon w-100">
+                            <div class="relative">
+                                <input type="text" class="form-control " placeholder="ابحث هنا...">
+                                <i class="icon icon-search start-icon"></i>
+                            </div>
                         </div>
+
+                        <a href="#" class="btn btn-primary px-4"> بحث </a>
+
+                    </div>
+
+                    <div class="flex-between mb-1">
+                        <p class="m-0"> إن لم تستطع إيجاد ما تبحث عنه يمكنك الانتقال للبحث المتقدم </p>
+                        <a href="#" class="btn btn-outline-dark btn-xs"> <span class="small font-medium"> البحث المتقدم</span> </a>
+                    </div>
+
+                    <p class="font-medium"> نقترح لك أيضًا تصفح الأعلى بحثًا </p>
+
+                    <div class="flex-start gap-2 mb-3 flex-wrap mb-4">
+
+                        <?php foreach (range(0, 3) as $i) { ?>
+                            <a class="btn btn-primary-faded btn-xs "> <span class=""> جدارات </span> </a>
+                            <a class="btn btn-primary-faded btn-xs "> <span class=""> سداد </span> </a>
+                            <a class="btn btn-primary-faded btn-xs "> <span class=""> سداد </span> </a>
+                            <a class="btn btn-primary-faded btn-xs "> <span class=""> سداد </span> </a>
+                            <a class="btn btn-primary-faded btn-xs "> <span class=""> العنوان الوطني </span> </a>
+                        <?php } ?>
+
+                    </div>
+
+                    <div class="text-center bg-gray-light border-radius-lg p-4 mb-3">
+                        <h6 class="font-medium mb-3"> الصفحات الأكثر زيــــــــارة </h6>
+
+                        <div class="flex-center gap-2 mb-3 flex-wrap">
+
+                            <?php foreach (range(0, 4) as $i) { ?>
+                                <a class="btn btn-primary-faded bg-white btn-xs border-radius-lg"> <span class=""> جدارات </span> </a>
+                                <a class="btn btn-primary-faded bg-white btn-xs border-radius-lg"> <span class=""> جدارات جدارات جدارات </span> </a>
+                                <a class="btn btn-primary-faded bg-white btn-xs border-radius-lg"> <span class=""> سداد سداد </span> </a>
+                            <?php } ?>
+
+                        </div>
+
                     </div>
 
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
 </div>
 
 <div id="readIcon" class="read-icon">🔊</div>

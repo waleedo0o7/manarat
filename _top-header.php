@@ -183,6 +183,19 @@
                         </div>
                     </li>
 
+                    
+                    <li class="nav-item dropdown" onmouseover="this.classList.add('show'); this.querySelector('.dropdown-menu').classList.add('show');" onmouseout="this.classList.remove('show'); this.querySelector('.dropdown-menu').classList.remove('show');">
+                        <a class="nav-link dropdown-toggle " href="our-work.php?dir=rtl" id="ourWorkDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            عضوية الهيئة
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="ourWorkDropdown">
+                            <a class="dropdown-item" href="our-work.php?dir=rtl"> عضوية ذهبية </a>
+                            <a class="dropdown-item" href="our-work.php?dir=rtl"> عضوية فضية </a>
+                            <a class="dropdown-item" href="our-work.php?dir=rtl"> عضوية خشبية </a>
+                        </div>
+                    </li>
+
+                    
                     <li class="nav-item"><a class="nav-link" href="#"> الخدمات الإلكترونية </a></li>
                 </ul>
 

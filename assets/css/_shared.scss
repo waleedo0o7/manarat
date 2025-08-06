@@ -230,6 +230,7 @@ h6,
     padding-bottom: 40px;
     z-index: 3;
     position: relative;
+    min-height: 80vh;
 
     @media all and (max-width : $breakpoint-xl) {
         padding-top: 30px;
@@ -965,7 +966,7 @@ h6,
 
 
 .sent-ideas {
-    background-image: url('../images/ideas_section_bg.png');
+    background-image: url('../images/ideas_section_bg.webp');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -992,7 +993,7 @@ h6,
 
 
 .login {
-    background: linear-gradient(0deg, rgba(9, 42, 30, .8), rgba(9, 42, 30, .8)), url(../images/hero-section.png) 50% 50% / cover;
+    background: linear-gradient(0deg, rgba(9, 42, 30, .8), rgba(9, 42, 30, .8)), url(../images/hero-section.webp) 50% 50% / cover;
     padding: 80px 0;
 }
 
@@ -1329,4 +1330,73 @@ hr.hr-white {
     background-color: unset !important;
     color: unset !important;
     outline: unset !important;
+}
+
+
+
+
+
+
+
+
+.dropdown.select {
+
+    .btn {
+
+        padding: .7rem 1rem;
+        height: 40px;
+        background-color: var(--background-1-light);
+        border-radius: var(--border-radius-sm);
+        border-color: var(--color-gray-light-300);
+        font-weight: var(--base-font-weight);
+        font-size: var(--base-font-size);
+        color: var(--input-text-color) !important;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        padding: 0px;
+
+        .dropdown-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 6px 16px;
+
+            &.active,
+            &.selected {
+                background-color: #FFF;
+                color: #212529;
+
+                &:after {
+                    display: block;
+                    content: "\e906";
+                    display: inline-block;
+                    font-family: 'icomoon' !important;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-variant: normal;
+                    text-transform: none;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    font-size: 12px;
+                    transition: all 0.2s ease-in-out;
+                    opacity: 0.8;
+                }
+
+                &:hover {
+                    color: hsl(210, 10.8108108108%, 9.5098039216%);
+                    text-decoration: none;
+                    background-color: #e9ecef;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    .modal-md {
+        max-width: 900px;
+    }
 }

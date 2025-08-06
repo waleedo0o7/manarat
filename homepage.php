@@ -24,7 +24,7 @@
                             <div class="intro-slide-wrapper"
 
                                 style="background-image: linear-gradient(0deg, rgba(9, 42, 30, 0.8) 0%, rgba(9, 42, 30, 0.8) 100%),
-                                   url(assets/images/hero-section.png);">
+                                   url(assets/images/hero-section.webp);">
 
                                 <div class="container">
 
