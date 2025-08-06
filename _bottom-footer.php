@@ -347,7 +347,7 @@
 
                         <div class="accordion-item">
 
-                            <div class="accordion-item-header" id="headingOne">
+                            <div class="accordion-item-header footer-card-title" id="headingOne">
                                 <button class="accordion-button collapsed" data-toggle="collapse" data-target="#collapse-fotter-1" aria-expanded="true" aria-controls="collapse-fotter-1">
                                     <p class="m-0 lead font-medium color-white"> ملخص </p>
                                     <i class="icon icon-chevron-down color-white"></i>
@@ -378,7 +378,7 @@
 
                         <div class="accordion-item">
 
-                            <div class="accordion-item-header" id="headingOne">
+                            <div class="accordion-item-header footer-card-title" id="headingOne">
                                 <button class="accordion-button collapsed" data-toggle="collapse" data-target="#collapse-fotter-2" aria-expanded="true" aria-controls="collapse-fotter-2">
                                     <p class="m-0 lead font-medium color-white"> روابط هامة </p>
                                     <i class="icon icon-chevron-down color-white"></i>
@@ -409,7 +409,7 @@
 
                         <div class="accordion-item">
 
-                            <div class="accordion-item-header" id="headingOne">
+                            <div class="accordion-item-header footer-card-title" id="headingOne">
                                 <button class="accordion-button collapsed" data-toggle="collapse" data-target="#collapse-fotter-3" aria-expanded="true" aria-controls="collapse-fotter-3">
                                     <p class="m-0 lead font-medium color-white"> الاتصال والدعم </p>
                                     <i class="icon icon-chevron-down color-white"></i>
@@ -437,7 +437,7 @@
                 <div class="col-lg-3">
 
                     <div class="mb-4">
-                        <h5 class="mb-3 mt-4"> تابعنا على </h5>
+                        <h5 class="footer-card-title"> تابعنا على </h5>
                         <div class="social-media-icons-wrapper">
 
                             <a href="#" class="social-media-icon no-hover">
@@ -464,7 +464,7 @@
                     </div>
 
                     <div class="mb-0">
-                        <h5 class="mb-3 mt-4"> أدوات الاتاحة والوصول </h5>
+                        <h5 class="footer-card-title"> أدوات الاتاحة والوصول </h5>
                         <div class="social-media-icons-wrapper">
                             <a href="#" class="social-media-icon no-hover">
                                 <i class="icon icon-lg icon-hand"></i>
@@ -482,7 +482,6 @@
 
             </div>
 
-            <hr class="hr-white" />
 
         </div>
 

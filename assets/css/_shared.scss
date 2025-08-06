@@ -1184,34 +1184,37 @@ h6,
 
 footer.footer {
 
-    .lg-content {
-        display: block;
 
-        @media all and (max-width : $breakpoint-lg) {
-            display: none;
-        }
+    .footer-card-title {
+        border-bottom: 1px solid hsla(0, 0%, 100%, .3215686275);
+        padding: 9px 0 8px 0;
+        margin-bottom: 15px;
+        height: 45px;
     }
 
 
-    .sm-content {
-        display: none;
+    .custom-accordion .accordion-item .accordion-item-header button.accordion-button {
+        padding: 0;
+        margin: 0;
+    }
 
-        @media all and (max-width : $breakpoint-lg) {
-            display: block;
+
+    .custom-accordion {
+
+        .accordion-item {
+            border-bottom: none;
+            padding: 0;
+
+
         }
     }
-}
-
-
-
-footer.footer {
 
 
     @media all and (min-width : $breakpoint-lg) {
+
         .custom-accordion {
 
-            .accordion-item {
-                border-bottom: none;
+            .accordion-item { 
 
                 .accordion-button {
                     cursor: text;
@@ -1232,8 +1235,13 @@ footer.footer {
 
 
 
-
 }
+
+
+
+
+
+
 
 
 
@@ -1393,6 +1401,13 @@ hr.hr-white {
         }
     }
 }
+
+
+
+
+
+
+
 
 @media (min-width: 992px) {
 
