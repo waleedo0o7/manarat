@@ -1,6 +1,61 @@
 <?php include 'header.php'; ?>
 
 <style>
+    @font-face {
+        font-family: "IBMPlexSansArabic";
+        src: url("assets/css/fonts/ibm-plex-sans-arabic/ArabicThin.ttf") format("truetype");
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "IBMPlexSansArabic";
+        src: url("assets/css/fonts/ibm-plex-sans-arabic/ArabicExtraLight.ttf") format("truetype");
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "IBMPlexSansArabic";
+        src: url("assets/css/fonts/ibm-plex-sans-arabic/ArabicLight.ttf") format("truetype");
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "IBMPlexSansArabic";
+        src: url("assets/css/fonts/ibm-plex-sans-arabic/ArabicRegular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "IBMPlexSansArabic";
+        src: url("assets/css/fonts/ibm-plex-sans-arabic/ArabicMedium.ttf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "IBMPlexSansArabic";
+        src: url("assets/css/fonts/ibm-plex-sans-arabic/ArabicSemiBold.ttf") format("truetype");
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "IBMPlexSansArabic";
+        src: url("assets/css/fonts/ibm-plex-sans-arabic/ArabicBold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+    }
+
+
+    body {
+        font-family: "IBMPlexSansArabic", sans-serif;
+    }
+
+
     .web-app-top-bar {
         display: none !important
     }
@@ -23,8 +78,8 @@
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center mb-5">
-                <div class="display-4"> Family <br /> <span class="bold">  Manarat  </span> </div>
-                <div class="display-4 text-right"> عائلة خط <br /> <span class="bold"> منارات </span> </div>
+                <div class="display-4"> Family <br /> <span class="bold"> IBM Plex Sans Arabic </span> </div>
+                <div class="display-4 text-right"> عائلة خط <br /> <span class="bold"> أي بي أم سانس عربي </span> </div>
             </div>
 
             <div class="ds-sub-section mb-4">

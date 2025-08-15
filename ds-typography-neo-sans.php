@@ -1,6 +1,74 @@
 <?php include 'header.php'; ?>
 
 <style>
+
+
+
+
+
+
+
+    @font-face {
+        font-family: "NeoSansArabic";
+        src: url("assets/css/fonts/neo-sans-arabic/ArabicLight.ttf") format("truetype");
+        font-weight: 200;
+        font-style: normal;
+    }
+
+
+    
+
+
+
+
+
+    @font-face {
+        font-family: "NeoSansArabic";
+        src: url("assets/css/fonts/neo-sans-arabic/ArabicRegular.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "NeoSansArabic";
+        src: url("assets/css/fonts/neo-sans-arabic/ArabicMedium.ttf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "NeoSansArabic";
+        src: url("assets/css/fonts/neo-sans-arabicArabicSemiBold.ttf") format("truetype");
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "NeoSansArabic";
+        src: url("assets/css/fonts/neo-sans-arabic/ArabicBold.ttf") format("truetype");
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "NeoSansArabic";
+        src: url("assets/css/fonts/neo-sans-arabic/ArabicBlack.ttf") format("truetype");
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "NeoSansArabic";
+        src: url("assets/css/fonts/neo-sans-arabic/ArabicUltra.ttf") format("truetype");
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    body {
+        font-family: "NeoSansArabic", sans-serif;
+    }
+
+
     .web-app-top-bar {
         display: none !important
     }
@@ -23,8 +91,8 @@
         <div class="container">
 
             <div class="d-flex justify-content-between align-items-center mb-5">
-                <div class="display-4"> Family <br /> <span class="bold">  Manarat  </span> </div>
-                <div class="display-4 text-right"> عائلة خط <br /> <span class="bold"> منارات </span> </div>
+                <div class="display-4"> Family <br /> <span class="bold"> neo sans arabic </span> </div>
+                <div class="display-4 text-right"> عائلة خط <br /> <span class="bold"> نيو سانس عربي </span> </div>
             </div>
 
             <div class="ds-sub-section mb-4">

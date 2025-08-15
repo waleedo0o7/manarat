@@ -1,3 +1,7 @@
+$font-family-src: 'ibm-plex-sans-arabic';
+
+// $font-family-src: 'neo-sans-arabic';
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 4px;
@@ -32,6 +36,67 @@
     }
 }
 
+@font-face {
+    font-family: "manarat";
+    src: url("fonts/#{$font-family-src}/ArabicThin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "manarat";
+    src: url("fonts/#{$font-family-src}/ArabicExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "manarat";
+    src: url("fonts/#{$font-family-src}/ArabicLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "manarat";
+    src: url("fonts/#{$font-family-src}/ArabicRegular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "manarat";
+    src: url("fonts/#{$font-family-src}/ArabicMedium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "manarat";
+    src: url("fonts/#{$font-family-src}/ArabicSemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "manarat";
+    src: url("fonts/#{$font-family-src}/ArabicBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "manarat", sans-serif;
+}
+
+
+
+
+
+
+
+
+
 
 html {
     scroll-behavior: smooth;
@@ -40,7 +105,6 @@ html {
 
 
 body {
-    font-family: "IBM Plex Sans Arabic", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: inherit;
@@ -1345,6 +1409,11 @@ hr.hr-white {
     outline: unset !important;
 }
 
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    height: 35px;
+    line-height: 40px;
+}
 
 
 
