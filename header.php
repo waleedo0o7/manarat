@@ -28,19 +28,28 @@
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
- 
-
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
 
-
-    <!-- Style CSS -->
-    <?php if (isset($_GET['dir']) && $_GET['dir'] == 'rtl') {
-        echo '<link rel="stylesheet" href="assets/css/style-rtl.min.css">';
+    <?php
+    
+    if (isset($_GET['dir']) && $_GET['dir'] == 'rtl') {
+        echo '<link rel="stylesheet" href="assets/css/style-font1-rtl.min.css">';
     } else {
-        echo '<link rel="stylesheet" href="assets/css/style-ltr.min.css">';
-    } ?>
+        echo '<link rel="stylesheet" href="assets/css/style-font1-ltr.min.css">';
+    }
+    
+    ?>
 
+    <?php
+    
+    // if (isset($_GET['dir']) && $_GET['dir'] == 'rtl') {
+    //     echo '<link rel="stylesheet" href="assets/css/style-font2-rtl.min.css">';
+    // } else {
+    //     echo '<link rel="stylesheet" href="assets/css/style-font2-ltr.min.css">';
+    // }
+    
+    ?>
 
     <link rel="icon" type="image/x-icon" href="assets/images/icons-svg/logo.svg">
 

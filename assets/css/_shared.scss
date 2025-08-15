@@ -1,3 +1,7 @@
+// $font-family-src: 'ibm-plex-sans-arabic';
+
+// $font-family-src: 'neo-sans-arabic';
+
 ::-webkit-scrollbar {
     width: 8px;
     height: 4px;
@@ -34,49 +38,49 @@
 
 @font-face {
     font-family: "manarat";
-    src: url("fonts/manarat-arabic/ArabicThin.ttf") format("truetype");
+    src: url("fonts/#{$font-family-src}/ArabicThin.ttf") format("truetype");
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: "manarat";
-    src: url("fonts/manarat-arabic/ArabicExtraLight.ttf") format("truetype");
+    src: url("fonts/#{$font-family-src}/ArabicExtraLight.ttf") format("truetype");
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: "manarat";
-    src: url("fonts/manarat-arabic/ArabicLight.ttf") format("truetype");
+    src: url("fonts/#{$font-family-src}/ArabicLight.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: "manarat";
-    src: url("fonts/manarat-arabic/ArabicRegular.ttf") format("truetype");
+    src: url("fonts/#{$font-family-src}/ArabicRegular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "manarat";
-    src: url("fonts/manarat-arabic/ArabicMedium.ttf") format("truetype");
+    src: url("fonts/#{$font-family-src}/ArabicMedium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "manarat";
-    src: url("fonts/manarat-arabic/ArabicSemiBold.ttf") format("truetype");
+    src: url("fonts/#{$font-family-src}/ArabicSemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: "manarat";
-    src: url("fonts/manarat-arabic/ArabicBold.ttf") format("truetype");
+    src: url("fonts/#{$font-family-src}/ArabicBold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
