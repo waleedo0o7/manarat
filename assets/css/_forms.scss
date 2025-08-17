@@ -687,7 +687,6 @@ select.form-control {
             }
         }
 
-        // عند تحديد العنوان
         .custom-control-input:checked~.custom-control-label {
             .badge-primary-faded {
                 background-color: var(--color-primary-light-300);

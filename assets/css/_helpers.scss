@@ -228,9 +228,6 @@ img {
     height: auto;
 }
 
-.text-end {
-    text-align: end;
-}
 
 small,
 .small {
@@ -294,36 +291,17 @@ small,
 }
 
 
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.flex-between {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-}
 
-.flex-start {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
 
 .line-height-1 {
     line-height: 1;
 }
 
-.text-wrap-auto {
-    text-wrap: auto;
-}
 
 
-.flex-wrap {
-    flex-wrap: wrap;
-}
+
 
 .w-10 {
     width: 10% !important;
@@ -386,16 +364,6 @@ small,
 
 
 
-.text-start {
-    text-align: start !important;
-}
-
-.text-lg-start {
-    @media all and (min-width : $breakpoint-xl) {
-        text-align: start !important;
-    }
-}
-
 .w-fit-content {
     width: fit-content !important;
 }
@@ -422,6 +390,123 @@ small,
         justify-content: start !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-wrap-auto {
+    text-wrap: auto;
+}
+
+.text-start {
+    text-align: start !important;
+}
+
+.text-end {
+    text-align: end !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+@media all and (min-width : $breakpoint-lg) {
+    .text-lg-start {
+        text-align: start !important;
+    }
+
+    .text-lg-end {
+        text-align: end !important;
+    }
+
+    .text-lg-center {
+        text-align: center !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+@media all and (min-width : $breakpoint-lg) {
+
+    .flex-lg-between {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .flex-lg-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-lg-start {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .flex-lg-end {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+}
+
+
+
+
 
 
 /* Width classes */

@@ -4,6 +4,7 @@ $danger: #EB1F2D;
 $warning: #F1C735;
 $success: #50C879;
 $secondary: #111827;
+$info: #1849A9;
 
 
 
@@ -29,21 +30,26 @@ $secondary: #111827;
     --color-primary-dark-400: #98E3EE;
     --color-primary-dark-500: #CFF9FF;
 
-    --color-secondary-light-50: #FDE9EA;
-    --color-secondary-light-75: #F7A3A9;
-    --color-secondary-light-100: #F37D85;
-    --color-secondary-light-200: #EE4551;
-    --color-secondary-light-300: #EB1F2D;
-    --color-secondary-light-400: #A5161F;
-    --color-secondary-light-500: #8F131B;
 
-    --color-secondary-dark-50: #321113;
-    --color-secondary-dark-75: #541317;
-    --color-secondary-dark-100: #9B1B23;
-    --color-secondary-dark-200: #D22D38;
-    --color-secondary-dark-300: #DD565F;
-    --color-secondary-dark-400: #F89198;
-    --color-secondary-dark-500: #F9CACD;
+
+    --color-secondary-light-50: #F3F4F6;
+    --color-secondary-light-75: #D1D5DB;
+    --color-secondary-light-100: #9CA3AF;
+    --color-secondary-light-200: #6B7280;
+    --color-secondary-light-300: #111827;
+    --color-secondary-light-400: #0F1621;
+    --color-secondary-light-500: #0C111A;
+
+    --color-secondary-dark-50: #030712;
+    --color-secondary-dark-75: #1F2937;
+    --color-secondary-dark-100: #374151;
+    --color-secondary-dark-200: #4B5563;
+    --color-secondary-dark-300: #6B7280;
+    --color-secondary-dark-400: #9CA3AF;
+    --color-secondary-dark-500: #D1D5DB;
+
+
+
 
     --color-success-light-50: #EEFAF2;
     --color-success-light-75: #B7E8C8;
@@ -92,6 +98,32 @@ $secondary: #111827;
     --color-danger-dark-300: #EF4D57;
     --color-danger-dark-400: #FF808C;
     --color-danger-dark-500: #FFC2C7;
+
+
+
+
+
+    --color-info-light-50: #E9F0FA;
+    --color-info-light-75: #B7CBE9;
+    --color-info-light-100: #91B0DE;
+    --color-info-light-200: #5C87CA;
+    --color-info-light-300: #1849A9;
+    --color-info-light-400: #12387F;
+    --color-info-light-500: #0D2A5E;
+
+    --color-info-dark-50: #0B1B39;
+    --color-info-dark-75: #102C5C;
+    --color-info-dark-100: #154080;
+    --color-info-dark-200: #1C57AB;
+    --color-info-dark-300: #276FD1;
+    --color-info-dark-400: #6BA3F0;
+    --color-info-dark-500: #B3D1FF;
+
+
+
+
+
+
 
     --color-gray-light-100: #f9fafb;
     --color-gray-light-200: #f3f4f6;
